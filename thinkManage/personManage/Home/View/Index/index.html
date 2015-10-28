@@ -1,0 +1,16 @@
+<extend name="base"/>
+<block name="base">
+      <link rel="stylesheet" type="text/css" href="//{:HOME_CSS_URL}index.css">
+	   <table id="main_person">
+	        <caption>个人网站</caption>
+	     <volist name='info' id='vo'>
+	       <if condition="($i%4) eq '0'">
+	       	 <tr>
+	       </if>
+	    	<td><img id="headImg" src="//{:HOME_UPLOADS_URL}{$vo.head_img}"><p ><a href="Index/main?Id={$vo.number}">{$vo.name}</a></p></td>
+	     </volist>
+	   </table>
+ </block>
+ <block name="script">
+	 <script type="text/javascript" src="//{:HOME_JS_URL}mian.js"></script>
+ </block>

@@ -1,0 +1,291 @@
+[ 2015-10-25T09:42:01+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateUser
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003262s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0360s ]
+SQL: UPDATE `user1` SET `paswd`='202cb962ac59075b964b07152d234b70' WHERE ( id=11 ) [ RunTime:0.0437s ]
+
+[ 2015-10-25T10:34:09+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/upadatePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005136s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0086s ]
+SQL: UPDATE `person` SET `name`='胡海涛',`pinyin`='huhaitao',`sex`='男',`age`='13',`telephone`='2147483647',`qq`='2324234',`email`='178344883434@qq.com',`address`='湖南省湘潭市' WHERE ( number=11 ) [ RunTime:0.0570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002206s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002554s ]
+
+[ 2015-10-25T16:54:50+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/note
+ERR: 1064:Erreur de syntaxe près de '' à la ligne 1
+ [ SQL语句 ] : select * from note where number= 
+
+[ 2015-10-25T17:59:47+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/journal
+ERR: 1054:Champ 'number' inconnu dans where clause
+ [ SQL语句 ] : select * from books where number=1 Limit 0, 8
+
+[ 2015-10-25T20:13:20+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateNote
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003668s ]
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0119s ]
+SQL: UPDATE `note` SET `num`='0',`text`='基础导航条在Bootstrap框中，导航条和导航从外观上差别不是太多，但在实际使用中导航条要比导航复杂得多。我们先来看导航条中最基础的一个——基础导航条。使用方法：在制作一个基础导航条时，主要分以下五步；',`time`='10-25' WHERE ( Id=31 ) [ RunTime:0.0564s ]
+
+[ 2015-10-25T20:15:05+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateNote
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003630s ]
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0120s ]
+SQL: UPDATE `note` SET `num`='0',`text`='基础导航条在Bootstrap框中，导航条和导航从外观上差别不是太多，但在实际使用中导航条要比导航复杂得多。我们先来看导航条中最基础的一个——基础导航条。使用方法：在制作一个基础导航条时，主要分以几步',`time`='10-25' WHERE ( Id=10 ) [ RunTime:0.0365s ]
+
+[ 2015-10-25T21:57:35+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/upadatePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008071s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0125s ]
+SQL: UPDATE `person` SET `name`='范晓冰',`pinyin`='fanxiaobing',`sex`='男',`age`='22',`telephone`='2147483647',`qq`='1466774522',`email`='1466774522@qq.com',`address`='河南省新乡市' WHERE ( number=1 ) [ RunTime:0.0485s ]
+
+[ 2015-10-25T21:57:53+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/upadatePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005196s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0681s ]
+SQL: UPDATE `person` SET `name`='范晓冰',`pinyin`='fanxiaobing',`sex`='男',`age`='22',`telephone`='2147483647',`qq`='1466774522',`email`='1466774522@qq.com',`address`='河南省新乡市' WHERE ( number=1 ) [ RunTime:0.0438s ]
+
+[ 2015-10-25T21:58:09+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/upadatePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006158s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0147s ]
+SQL: UPDATE `person` SET `name`='范晓冰',`pinyin`='fanxiaobing',`sex`='男',`age`='22',`telephone`='111111111',`qq`='1466774522',`email`='1466774522@qq.com',`address`='河南省新乡市' WHERE ( number=1 ) [ RunTime:0.1077s ]
+
+[ 2015-10-25T21:58:36+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/upadatePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004464s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0105s ]
+SQL: UPDATE `person` SET `name`='范晓冰',`pinyin`='fanxiaobing',`sex`='男',`age`='22',`telephone`='2147483647',`qq`='1466774522',`email`='1466774522@qq.com',`address`='河南省新乡市' WHERE ( number=1 ) [ RunTime:0.0627s ]
+
+[ 2015-10-25T21:59:35+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/upadatePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004530s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0100s ]
+SQL: UPDATE `person` SET `name`='范晓冰',`pinyin`='fanxiaobing',`sex`='男',`age`='22',`telephone`='1525965127',`qq`='1466774522',`email`='1466774522@qq.com',`address`='河南省新乡市' WHERE ( number=1 ) [ RunTime:0.0659s ]
+
+[ 2015-10-25T21:59:53+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/upadatePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004812s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0086s ]
+SQL: UPDATE `person` SET `name`='范晓冰',`pinyin`='fanxiaobing',`sex`='男',`age`='22',`telephone`='2147483647',`qq`='1466774522',`email`='1466774522@qq.com',`address`='河南省新乡市' WHERE ( number=1 ) [ RunTime:0.0801s ]
+
+[ 2015-10-25T22:00:28+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/upadatePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003582s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0109s ]
+SQL: UPDATE `person` SET `name`='范晓冰',`pinyin`='fanxiaobing',`sex`='男',`age`='22',`telephone`='2147483647',`qq`='1466774522',`email`='1466774522@qq.com',`address`='河南省新乡市' WHERE ( number=1 ) [ RunTime:0.0424s ]
+
+[ 2015-10-25T22:01:19+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/upadatePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004325s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0118s ]
+SQL: UPDATE `person` SET `name`='范晓冰',`pinyin`='fanxiaobing',`sex`='男',`age`='22',`telephone`='2147483647',`qq`='1466774522',`email`='1466774522@qq.com',`address`='河南省新乡市' WHERE ( number=1 ) [ RunTime:0.0846s ]
+
+[ 2015-10-25T22:01:35+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/upadatePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007335s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0118s ]
+SQL: UPDATE `person` SET `name`='范晓冰',`pinyin`='fanxiaobing',`sex`='男',`age`='22',`telephone`='2147483647',`qq`='1466774522',`email`='1466774522@qq.com',`address`='河南省新乡市' WHERE ( number=1 ) [ RunTime:0.0808s ]
+
+[ 2015-10-25T22:01:42+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/upadatePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006342s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0104s ]
+SQL: UPDATE `person` SET `name`='范晓冰',`pinyin`='fanxiaobing',`sex`='男',`age`='22',`telephone`='152566',`qq`='1466774522',`email`='1466774522@qq.com',`address`='河南省新乡市' WHERE ( number=1 ) [ RunTime:0.0632s ]
+
+[ 2015-10-25T22:02:17+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/upadatePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004192s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0116s ]
+SQL: UPDATE `person` SET `name`='范晓冰',`pinyin`='fanxiaobing',`sex`='男',`age`='22',`telephone`='15225965127',`qq`='1466774522',`email`='1466774522@qq.com',`address`='河南省新乡市' WHERE ( number=1 ) [ RunTime:0.0838s ]
+
+[ 2015-10-25T22:03:12+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateBook
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004212s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0098s ]
+SQL: UPDATE `books` SET `book_title`='疯狂Java讲义',`image`='book5.png',`text`='：疯狂Java讲义（第3版》深入介绍了Java编程的相关方面，全书内容覆盖了Java的基本语法结构、Java的面向对象特征、Java集合框架体系、Java泛型、异常处理、JavaGUI编程、JDBC数据库编程......',`author`='李刚' WHERE ( id=4 ) [ RunTime:0.0467s ]
+
+[ 2015-10-25T22:03:30+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateBook
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004405s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0096s ]
+SQL: UPDATE `books` SET `book_title`='疯狂Java讲义',`image`='book5.png',`text`='《疯狂软件教育标准教材：疯狂Java讲义（第3版》深入介绍了Java编程的相关方面，全书内容覆盖了Java的基本语法结构、Java的面向对象特征、Java集合框架体系、Java泛型、异常处理、JavaGUI编程、JDBC数据库编程......',`author`='李刚' WHERE ( id=4 ) [ RunTime:0.0753s ]
+
+[ 2015-10-25T22:03:49+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/deleteBook
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003820s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0101s ]
+SQL: DELETE FROM `books` WHERE ( Id=4 ) [ RunTime:0.0783s ]
+
+[ 2015-10-25T22:04:33+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/addBook
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003743s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0093s ]
+SQL: INSERT INTO `books` (`person_num`,`book_title`,`image`,`text`,`author`) VALUES ('1','互联网','bookImg.jpg','啊啊啊啊啊啊啊v','高峰') [ RunTime:0.0844s ]
+
+[ 2015-10-25T22:04:50+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateBook
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003579s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0091s ]
+SQL: UPDATE `books` SET `book_title`='赢战产业互联网',`image`='book2.png',`text`='《互联网+下的产业大变局——赢战产业互联网》首先全面研究对比了工业互联网、工业4.0、中国制造2025，剖析了全球产业大变革内在驱动，指出产业互联网是互联网+的核心，提出并详细诠释了产业互联网新五大基石——云计算、大数据、物联网、移动互联网、工业智能。',`author`='欧阳' WHERE ( id=1 ) [ RunTime:0.0708s ]
+
+[ 2015-10-25T22:04:59+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateBook
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004792s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0098s ]
+SQL: UPDATE `books` SET `book_title`='互联网',`image`='bookImg.jpg',`text`='互联网、工业4.0、中国制造2025，剖析了全球产业大变革内在驱动，指出产业互联网是互联网+的核心，提出并详细诠释了产业互联网新五大基石——云计算、大数据、物联网、移动互联网、工业智能。',`author`='高峰' WHERE ( id=1 ) [ RunTime:0.0819s ]
+
+[ 2015-10-25T22:06:22+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateBook
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003057s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0107s ]
+SQL: UPDATE `books` SET `book_title`='互联网',`image`='562ce1c3ecd8e.jpg',`text`='互联网、工业4.0、中国制造2025，剖析了全球产业大变革内在驱动，指出产业互联网是互联网+的核心，提出并详细诠释了产业互联网新五大基石——云计算、大数据、物联网、移动互联网、工业智能。',`author`='高峰' WHERE ( id=1 ) [ RunTime:0.0688s ]
+
+[ 2015-10-25T22:06:39+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateBook
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003359s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0112s ]
+SQL: UPDATE `books` SET `book_title`='互联网',`image`='562ce1c3ecd8e.jpg',`text`='互联网、工业4.0、中国制造2025，剖析了全球产业大变革内在驱动，指出产业互联网是互联网+的核心，提出并详细诠释了产业互联网新五大基石——云计算、大数据、物联网、移动互联网、工业智能。',`author`='高峰' WHERE ( id=1 ) [ RunTime:0.0845s ]
+
+[ 2015-10-25T22:07:04+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateBook
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004848s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0106s ]
+SQL: UPDATE `books` SET `book_title`='互联网',`image`='562ce1c3ecd8e.jpg',`text`='互联网、工业4.0、中国制造2025，剖析了全球产业大变革内在驱动，指出产业互联网是互联网+的核心，提出并详细诠释了产业互联网新五大基石——云计算、大数据、物联网、移动互联网、工业智能。',`author`='高峰' WHERE ( id=1 ) [ RunTime:0.0481s ]
+
+[ 2015-10-25T22:07:30+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateBook
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005214s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0125s ]
+SQL: UPDATE `books` SET `book_title`='互联网',`image`='562ce1c3ecd8e.jpg',`text`='互联网、工业4.0、中国制造2025，剖析了全球产业大变革内在驱动，指出产业互联网是互联网+的核心，提出并详细诠释了产业互联网新五大基石——云计算、大数据、物联网、移动互联网、工业智能。',`author`='高峰' WHERE ( id=1 ) [ RunTime:0.0426s ]
+
+[ 2015-10-25T22:07:43+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateBook
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005338s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0093s ]
+SQL: UPDATE `books` SET `book_title`='互联网',`image`='bookImg.jpg',`text`='指出产业互联网是互联网+的核心，提出并详细诠释了产业互联网新五大基石——云计算、大数据、物联网、移动互联网、工业智能。',`author`='高峰' WHERE ( id=1 ) [ RunTime:0.0667s ]
+
+[ 2015-10-25T22:22:18+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateBook
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003737s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0104s ]
+SQL: UPDATE `books` SET `book_title`='互联网',`image`='bookImg.jpg',`text`='指出产业互联网是互联网+的核心，提出并详细诠释了产业互联网新五大基石——云计算、大数据、物联网、移动互联网、工业智能。',`author`='高峰' WHERE ( id=30 ) [ RunTime:0.1504s ]
+
+[ 2015-10-25T22:22:48+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateBook
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007340s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0107s ]
+SQL: UPDATE `books` SET `book_title`='互联网',`image`='bookImg.jpg',`text`='去去去',`author`='高峰' WHERE ( id=30 ) [ RunTime:0.0739s ]
+
+[ 2015-10-25T22:23:03+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateBook
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004365s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0115s ]
+SQL: UPDATE `books` SET `book_title`='互联网',`image`='bookImg.jpg',`text`='登山涉水搜索',`author`='高峰' WHERE ( id=1 ) [ RunTime:0.0392s ]
+
+[ 2015-10-25T22:23:39+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateBook
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003525s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0094s ]
+SQL: UPDATE `books` SET `book_title`='互联网',`image`='bookImg.jpg',`text`='去去去啊啊啊',`author`='高峰' WHERE ( id=1 ) [ RunTime:0.0672s ]
+
+[ 2015-10-25T22:24:40+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateBook
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003206s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0118s ]
+SQL: UPDATE `books` SET `book_title`='互联网',`image`='bookImg.jpg',`text`='去去去啊啊啊vvv',`author`='高峰' WHERE ( id=30 ) [ RunTime:0.0793s ]
+
+[ 2015-10-25T22:25:13+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateBook
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003917s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0098s ]
+SQL: UPDATE `books` SET `book_title`='互联网',`image`='bookImg.jpg',`text`='去',`author`='高峰' WHERE ( id=30 ) [ RunTime:0.0477s ]
+
+[ 2015-10-25T22:27:15+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateBook
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004349s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0093s ]
+SQL: UPDATE `books` SET `book_title`='互联网',`image`='bookImg.jpg',`text`='去',`author`='高峰' WHERE ( id=30 ) [ RunTime:0.1385s ]
+
+[ 2015-10-25T22:27:29+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateBook
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005829s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0090s ]
+SQL: UPDATE `books` SET `book_title`='互联网',`image`='bookImg.jpg',`text`='去复古风',`author`='高峰' WHERE ( id=30 ) [ RunTime:0.0434s ]
+
+[ 2015-10-25T22:27:50+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateBook
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003738s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0104s ]
+SQL: UPDATE `books` SET `book_title`='互联网',`image`='bookImg.jpg',`text`='去',`author`='高峰' WHERE ( id=30 ) [ RunTime:0.0542s ]
+
+[ 2015-10-25T22:28:50+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateBook
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005287s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0105s ]
+SQL: UPDATE `books` SET `book_title`='互联网',`image`='bookImg.jpg',`text`='去的风格特色',`author`='高峰' WHERE ( id=30 ) [ RunTime:0.0505s ]
+
+[ 2015-10-25T22:30:56+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateBook
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004569s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0098s ]
+SQL: UPDATE `books` SET `book_title`='互联网',`image`='bookImg.jpg',`text`='去的风格特',`author`='高峰' WHERE ( id=30 ) [ RunTime:0.0454s ]
+
+[ 2015-10-25T22:37:31+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateBook
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006473s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0176s ]
+SQL: UPDATE `books` SET `book_title`='互联网',`image`='bookImg.jpg',`text`='士大夫',`author`='高峰' WHERE ( id=1 ) [ RunTime:0.0858s ]
+
+[ 2015-10-25T22:39:06+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateBook
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003823s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0116s ]
+SQL: UPDATE `books` SET `book_title`='互联网',`image`='bookImg.jpg',`text`='互联网金融之所以被称之为革命，正是因为新金融与旧金融两方之间存在着机遇与挑战、冲突与抗衡。作为时下热点话题，互联网金融吸引了互联网领域、金融领域以及相关领域人士的强烈关注。但因为该领域尚属新兴，专业深入的研究凤毛麟角，这本书是对互联网金融的评论分析性著作，作者是著名财经评论人，有具备多年金融行业工作经验，权威性较高。',`author`='高峰' WHERE ( id=1 ) [ RunTime:0.0383s ]
+
+[ 2015-10-25T22:39:25+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateBook
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004623s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0110s ]
+SQL: UPDATE `books` SET `book_title`='互联网之谜',`image`='bookImg.jpg',`text`='去的风格特',`author`='高峰' WHERE ( id=30 ) [ RunTime:0.0775s ]
+

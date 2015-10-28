@@ -1,0 +1,273 @@
+<extend name="base"/>
+<block name="base">
+     <link rel="stylesheet" type="text/css" href="//{:UPLOADIFY_URL}uploadify.css">
+     <link rel="stylesheet" type="text/css" href="//{:HOME_CSS_URL}person.css">
+    <div id="title" class="collapse navbar-collapse navbar-responsive-collapse">
+	  	<ul class="nav navbar-nav">
+	  		<li><a  href="main?Id={$userId}">主页</a></li>
+	  		<li><a href="journal?Id={$userId}{$reate}page=1">日志</a></li>
+	  		<li><a href="photo?Id={$userId}{$reate}page=1">相册</a></li>
+	  		<li><a href="message?Id={$userId}">留言板</a></li>
+	  		<li   class="active"><a href="person.php?Id={$userId}">个人档</a></li>
+	  		<li><a href="time?Id={$userId}{$reate}page=1">时光轴</a></li>
+	  		<li><a href="more?Id={$userId}">更多</a></li>
+	  	</ul>
+     </div>
+	    <div class=".container">
+       <div class="modal fade"id="myHeadModal" style="margin-top: 100px;" tabindex="-1"role="dialog"aria-labelledby="myModalLabel"aria-hidden="true">
+           <div class="modal-dialog">
+                 <div class="modal-content">
+                   <div class="modal-header">
+                      <button type="button"class="close"data-dismiss="modal"aria-hidden="true"> &times; </button>
+                      <h4 class="modal-title"id="myModalLabel"> 修改头像对话框</h4>
+                    </div>
+                    <div class="modal-body">
+                       <img class="head_img" src="//{:HOME_UPLOADS_URL}head2.png">
+                       <img class="head_img"   src="//{:HOME_UPLOADS_URL}head4.png">
+                       <img class="head_img" src="//{:HOME_UPLOADS_URL}head5.png">
+                       <div style="float: right;">
+                     	  <input style="float: left;display:inline-block;" id="file_upload" Idvalue="{$userId}" name="file_upload" type="file" multiple="true" value="" />
+                     	</div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button"class="btn btn-default"data-dismiss="modal">关闭 </button>
+                      <button id="alertButton" type="button"class="btn btn-primary"> 确定</button>
+                    </div>
+                 </div>
+              </div>
+           </div>
+	   </div>  
+	   <div class="person">
+	     <h4 class="person_title">
+	     	个人档
+	     </h4>
+	     <div class="profile">
+	     	<div class="head">
+	     	
+	     	  <volist name="info" id="vo">
+	     	  	<img class="me_img" src="//{:HOME_UPLOADS_URL}{$vo.head_img}">
+	     	  </volist>
+	     	  <if condition="!($user eq '0' ) ">
+	     	    <if condition="$user_id eq $userId ">
+	     	    <a  style="cursor:hand" class="head_update">修改头像</a>
+	     	    </if>
+	     	  </if>
+              <div class="dails">
+	     	  <ul>
+	     		<li id="journalCount" style="border-left: none;"><h4><a href="journal?Id={$Id}">{$countJournal}</a></h4><h5>日志</h5></li>
+	     		<li ><h4><a href="photo?Id={$Id}{$reate}page=1">{$countPhoto}</a></h4><h5>照片</h5></li>
+	     	
+	     		<li><h4><a href="message?Id={$Id}">{$countMessage}</a></h4><h5>留言</h5></li>
+	     		</ul>
+	     		</div>
+	     		<div class="line"></div>
+	     	</div>
+	     	<div class="profile_dailes">
+	     	  
+              <volist name="userName" id="vo">
+	     	      <h4 class="name">{$vo.userName}</h4>
+	     	  </volist>
+	     		<div class="profile_photo">
+	     			<ul>
+	     				<li style="margin-left: 0;"><img src="//{:HOME_UPLOADS_URL}profile1.png"></li>
+	     				<li><img class="person_img" src="//{:HOME_UPLOADS_URL}profile2.png"></li>
+	     				<li><img class="person_img" src="//{:HOME_UPLOADS_URL}profile3.png"></li>
+	     				<li><img class="person_img" src="//{:HOME_UPLOADS_URL}profile4.png"></li>
+	     			</ul>
+	     		</div>
+	     		<div class="profile_data">
+	     			<ul class="nav nav-tabs">
+					  <li><a href="#home" data-toggle="tab" class="dailBorder" style="border: 1px solid #CAE5EF">个人资料</a></li>
+					  <li><a href="#profile" data-toggle="tab"  class="dailBorder" style="border: 1px solid #CAE5EF">个人兴趣</a></li>	
+					   <if condition=" !($user eq '0') " >
+				    <if condition=" $user_id eq $userId ">
+				      <li class="alter" style="float: right;"><a href="person_alter?Id={$userId}">修改</a></li>	
+				    </if>
+				 </if>
+                    	 
+					</ul>
+					<div class="tab-content">
+					  <div class="tab-pane active" id="home">
+					   <div class="left_profile">
+					    <div> </div>
+					   	 <p>基本资料</p>
+					   	 <div class="left_line"></div>
+					   	  <ul>
+					   	 	<li>政治面貌:</li>
+					   	 	<li>年龄:</li>
+					   	 	<li>生日:</li>
+					   	 	<li>现居地:</li>
+					   	 	<li>婚姻状况:</li>
+					   	 	<li>血型:</li>
+					   	 	<li>故乡:</li>
+					   	 	<li>公司名称:</li>
+					   	 	<li>公司所在地:</li>
+					   	 	<li>详细地址:</li>
+					   	 </ul>
+					   </div>
+					   <volist name="person_val" id="vo">
+					  
+					   	  <div class="right_profile">
+						   	   <ul>
+						   	  
+						   	  <li>
+						   	   <if condition=" $vo.politics eq '' ">{$not}
+                                <else/>{$vo.politics}
+                                </if>
+						   	  </li>
+						   	  <li>
+						   	     <if condition=" $vo.age eq '' ">{$not}
+                                <else/>{$vo.age}
+                                </if>
+						   	  </li>
+						   	  <li>
+						   	    <if condition=" $vo.birthday eq '' ">{$not}
+                                <else/>{$vo.birthday}
+                                </if>
+						   	   </li>
+						      <li> 
+                                <if condition=" $vo.newAddress eq '' ">{$not}
+                                <else/>{$vo.newAddress}
+                                </if>
+						      </li>
+						   	  <li> 
+						   	    <if condition=" $vo.marriage eq '' ">{$not}
+                                <else/>{$vo.marriage}
+                                </if>
+						   	  </li>
+						   	  <li> 
+						   	     <if condition=" $vo.blood eq '' ">{$not}
+                                <else/>{$vo.blood}
+                                </if>
+						   	  </li>
+						      <li> 
+						        <if condition=" $vo.hometown eq '' ">{$not}
+                                <else/>{$vo.hometown}
+                                </if>
+						      </li>
+						      <li> 
+                                 <if condition=" $vo.company eq '' ">{$not}
+                                <else/>{$vo.company}
+                                </if>
+						      </li>
+						      <li> 
+                                 <if condition=" $vo.companyaddress eq '' ">{$not}
+                                <else/>{$vo.companyaddress}
+                                </if>
+						      </li> 
+						      <li> 
+						         <if condition=" $vo.address eq '' ">{$not}
+                                <else/>{$vo.address}
+                                </if>
+						     </li> 			  
+						   	</ul>
+						  </div>
+                         </div>
+					     <div class="tab-pane" id="profile">
+					  	 <div class="left_profile">
+					   	 <p>基本资料</p>
+					   	 <div class="left_line"></div>
+					   	  <ul>
+					   	 	<li>明星:</li>
+					   	 	<li>音乐:</li>
+					   	 	<li>运动:</li>
+					   	 	<li>影视:</li>
+					   	 	<li>游戏:</li>
+					   	 	<li>数码:</li>
+					   	 	<li>美食:</li>
+					   	 	<li>旅游:</li>
+					   	 	<li>书籍:</li>
+					   	 	<li>其他:</li>
+					   	 	
+					   	 </ul>
+					   </div>
+					    <div class="right_profile">
+					       <ul>
+					       <li>
+					         <if condition=" $vo.star eq '' ">{$not}
+                                <else/>{$vo.star}
+                             </if>
+					       </li> 	
+					       <li>
+                             <if condition=" $vo.music eq '' ">{$not}
+                                <else/>{$vo.music}
+                             </if>
+					       </li> 
+					       <li>
+					          <if condition=" $vo.sport eq '' ">{$not}
+                                <else/>{$vo.sport}
+                              </if>
+					       </li> 
+					       <li>
+                              <if condition=" $vo.film eq '' ">{$not}
+                                <else/>{$vo.film}
+                              </if>
+					       </li> 
+					       <li>
+                              <if condition=" $vo.game eq '' ">{$not}
+                                <else/>{$vo.game}
+                              </if>
+					      </li> 
+					       <li>
+					           <if condition=" $vo.digit eq '' ">{$not}
+                                <else/>{$vo.digit}
+                              </if>
+					       </li>  
+					       <li>
+					            <if condition=" $vo.food eq '' ">{$not}
+                                <else/>{$vo.food}
+                              </if>
+					       </li> 
+					       <li>
+					          <if condition=" $vo.tour eq '' ">{$not}
+                                <else/>{$vo.tour}
+                              </if>
+					       </li> 
+					       <li>
+					           <if condition=" $vo.book eq '' ">{$not}
+                                <else/>{$vo.book}
+                              </if>
+					       </li> 
+					       <li>
+					           <if condition=" $vo.other eq '' ">{$not}
+                                <else/>{$vo.other}
+                              </if>
+					       </li> 
+					   	
+					   	</ul>
+					  </div>
+					</div>
+                         
+					  </volist>
+					</div>
+	     		</div>
+	     	</div>
+	     </div>
+	   </div>
+
+</block>
+<block name="script">
+  <script type="text/javascript" src="//{:UPLOADIFY_URL}jquery.uploadify.js"></script>
+  <script type="text/javascript" src=" //{:HOME_JS_URL}person.js"></script>
+  <script type="text/javascript">
+  	 var id=$("#file_upload").attr("Idvalue");
+	  var img = '';
+		$('#file_upload').uploadify({
+	        	'swf'      : '__PUBLIC__/uploadify/uploadify.swf',
+	        	'uploader' : 'uploadify',   //上传的方法
+	        	'buttonText' : '缩略图上传',
+	        	'onUploadSuccess' : function(file, data, response) { 
+	        	var leg=data.length;
+	        	 data=data.substring(1,leg-1);
+	        	 $.post("alert_Headimg",{"num":id,"Imgurl":data},function(data){
+                        if (data==1) {
+                        	alert("照片上传成功！！");
+                        	window.location.reload();
+                        }else{
+                        	alert("照片上传失败！！");
+                        }
+	        	 })
+        	}
+    	});
+  </script>
+</block>

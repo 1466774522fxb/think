@@ -1,0 +1,46 @@
+<extend name="base"/>
+ <block name="base">
+    <link rel="stylesheet" type="text/css" href="//{:HOME_CSS_URL}journal.css">
+       <div id="title" class="collapse navbar-collapse navbar-responsive-collapse">
+   	  	<ul class="nav navbar-nav">
+   	  		<li ><a  href="main?Id={$userId}">主页</a></li>
+   	  		<li  class="active"><a href="journal?Id={$userId}{$reate}page=1">日志</a></li>
+   	  		<li><a href="photo?Id={$userId}{$reate}page=1">相册</a></li>
+   	  		<li><a href="message?Id={$userId}">留言板</a></li>
+   	  		<li><a href="person?Id={$userId}">个人档</a></li>
+   	  		<li><a href="time?Id={$userId}{$reate}page=1">时光轴</a></li>
+   	  		<li><a href="more?Id={$userId}">更多</a></li>
+   	  	</ul>
+      </div>
+	   <div class="journal">
+	   	 <ul>
+		   <volist name="info" id="vo">
+		   	  <li>
+			   	  <div class="panel panel-default">
+				   	   <div class="panel-heading">{$vo.title}
+				   	       <span class="list glyphicon glyphicon-chevron-down">展开</span>
+			   	 	   </div>
+			   	 	   <div class="panel1" class="panel-body" style=" display: none;">{$vo.text}</div>
+			   	 	   <div class="panel-footer">{$vo.time}{$vo.remark}</div>
+				       <div id="move">
+				         <if condition="($i eq '1')">
+				         	 <span class="up_move" size="{$pageSize}" style="display:none;" >上移</span>
+				         	 <else/><span class="up_move" size="{$pageSize}" >上移</span>
+				         </if>
+				         <if condition="($i eq $pageSize)">
+				         	 <span class="down_move" size="{$pageSize}" style="display:none;" >下移</span>
+				         	 <else/><span class="down_move" size="{$pageSize}" >下移</span>
+				         </if>
+				       </div>
+			      </div>
+		      </li>
+	      </volist>
+	     </ul>
+		 <div class=page_foot>
+		   {$pagelist}
+		  </div>
+       </div> 
+</block>
+<block name="script">
+<script type="text/javascript" src=" //{:HOME_JS_URL}journal.js"></script>
+</block>

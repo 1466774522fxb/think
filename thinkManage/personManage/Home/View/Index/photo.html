@@ -1,0 +1,117 @@
+<extend name="base"/>
+<block name="style">
+	  <link rel="stylesheet" type="text/css" href="//{:UPLOADIFY_URL}uploadify.css">
+	  <link rel="stylesheet" type="text/css" href="//{:HOME_CSS_URL}photo.css">
+</block>
+<block name="base">
+        <div id="title" class="collapse navbar-collapse navbar-responsive-collapse">
+    	  	<ul class="nav navbar-nav">
+    	  		<li ><a  href="main?Id={$userId}">主页</a></li>
+    	  		<li><a href="journal?Id={$userId}{$reate}page=1">日志</a></li>
+    	  		<li  class="active"><a href="photo?Id={$userId}{$reate}page=1">相册</a></li>
+    	  		<li><a href="message?Id={$userId}">留言板</a></li>
+    	  		<li><a href="person?Id={$userId}">个人档</a></li>
+    	  		<li><a href="time?Id={$userId}{$reate}page=1">时光轴</a></li>
+    	  		<li><a href="more?Id={$userId}">更多</a></li>
+    	  	</ul>
+       </div>   
+    <div id="photo">
+         <div id="leftBorder" class="progress progress-striped active" >
+		    <div class="progress-bar progress-bar-info" style="width:100%;"></div>
+		</div> 
+        <div id="centerBorder">
+	        <div class="progress progress-striped active">
+				    <div class="progress-bar progress-bar-info" style="width:100%;"></div>
+			</div> 
+	         <div class="image1" >
+		        <volist name="info" id="vo">
+		         	<div class="photo{$i}"><img  src='//{:HOME_UPLOADS_URL}{$vo.photo_url}' imgId='{$vo.id}' type="button" class="btn btn-primary"  target=".bs-example-modal-lg">
+		             <if condition=" !($user eq '0') " >
+		               <if condition=" $user_id eq $userId ">
+		         	     <span  class="deletes glyphicon glyphicon-remove">  </span>
+		         	   </if>
+		         	 </if>
+		           </div>
+		       </volist>
+			 </div>
+			 <div class="progress progress-striped active">
+				    <div class="progress-bar progress-bar-info" style="width:100%;"></div>
+			 </div> 
+          
+        </div>
+        <div id="rightBorder" class="progress progress-striped active" >
+		    <div class="progress-bar progress-bar-info" style="width:100%;"></div>
+		</div> 
+						
+		<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" >
+			  <div class="modal-dialog modal-lg">
+			    <div class="modal-content">
+			     <img class="mainphoto" src="" id="photoImg">
+			    </div>
+			  </div> 
+	    </div>
+    </div>
+         <div id="bottomFoot">
+         	
+         
+         <if condition=" !($user eq '0') " >
+		    <if condition=" $user_id eq $userId ">
+		     <input style="float: left;display:inline-block;" id="file_upload" Idvalue="{$userId}" name="file_upload" type="file" multiple="true" value="" />
+		    </if>
+		 </if>
+		</div>
+	    <div id="rightPage">
+	        <if condition="!($page eq '1' )">
+	        <span id="upPage" userId={$userId} pageSize="{$page}" class="btn btn-default">上一页</span>
+	        </if>
+	     	<if condition="!($page eq $countPhoto)">
+	        <span id="downPage" userId={$userId} pageSize="{$page}" class="btn btn-default ">下一页</span>
+	        </if>
+	   </div>
+	 <div style="clear: both;"></div>
+	 <div class=".container">
+           <div class="modal fade"id="myModal" style="margin-top: 100px;" tabindex="-1"role="dialog"aria-labelledby="myModalLabel"aria-hidden="true">
+               <div class="modal-dialog">
+                     <div class="modal-content">
+                       <div class="modal-header">
+                          <button type="button"class="close"data-dismiss="modal"aria-hidden="true"> &times; </button>
+                          <h4 class="modal-title"id="myModalLabel"> 上传图片对话框</h4>
+                        </div>
+                        <div class="modal-body">
+                           
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button"class="btn btn-default"data-dismiss="modal">关闭 </button>
+                          <button type="button"class="btn btn-primary"> 确定</button>
+                        </div>
+                     </div>
+               </div>
+            </div>
+	 </div>  
+</block>
+<block name="script">
+  <script type="text/javascript" src="//{:UPLOADIFY_URL}jquery.uploadify.js"></script>
+  <script type="text/javascript" src=" //{:HOME_JS_URL}photo.js"></script>
+  <script type="text/javascript">
+  var id=$("#file_upload").attr("Idvalue");
+  var img = '';
+	$('#file_upload').uploadify({
+        	'swf'      : '__PUBLIC__/uploadify/uploadify.swf',
+        	'uploader' : 'uploadify',   //上传的方法
+        	'buttonText' : '缩略图上传',
+        	'onUploadSuccess' : function(file, data, response) { 
+        	var leg=data.length;
+        	 data=data.substring(1,leg-1);
+        	 $.post("addPhoto",{"num":id,"path":data},function(data){
+                    if (data>0) {
+                    	alert("照片上传成功！！");
+                    	 window.location.reload();
+                    }else{
+                    	alert("照片上传失败！！");
+                    }
+        	 })
+    	}
+	});
+  </script>
+</block>
+	   

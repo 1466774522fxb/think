@@ -1,0 +1,25 @@
+#lefttime{
+	width: 450px;
+	height: 950px;
+   float: left;
+}
+#firstNote{
+	margin-top: 0; 
+	padding: 0px;
+	background: black;
+}
+#secondNote{
+	margin-top: 0; 
+	padding: 0px;
+	background: black;
+}
+#right_Note{
+	width: 450px;
+	height: 950px;  
+	float: right;
+}
+#timeFoot{
+	text-align: right;
+	 width: 100%;
+	 margin:0 auto;
+}

@@ -1,0 +1,85 @@
+<extend name="base" />
+<block name="style">
+	<link rel="stylesheet" type="text/css" href="//{:HOME_CSS_URL}person_alter.css">
+</block>
+<block name="base">
+      
+	    <div id="title" class="collapse navbar-collapse navbar-responsive-collapse">
+		  	<ul class="nav navbar-nav">
+		  		<li ><a  href="main?Id={$url_id}">主页</a></li>
+		  		<li ><a href="journal?Id={$url_id}{$reate}page=1">日志</a></li>
+		  		<li ><a href="photo?Id={$url_id}{$reate}page=1">相册</a></li>
+		  		<li ><a href="message?Id={$url_id}">留言板</a></li>
+		  		<li class="active"><a href="person?Id={$url_id}">个人档</a></li>
+		  		<li><a href="time?Id={$url_id}{$reate}page=1">时光轴</a></li>
+		  		<li><a href="more?Id={$url_id}">更多</a></li>
+		  	</ul>
+	   </div>
+	   <div id="alterInfo">
+		      
+		        <table  class="alter_table" width="100%">
+
+		        	<caption style="text-align: center;">修改信息</caption>   
+		        	<volist name="info" id="vo">
+		        	<form id="alter_form">
+		        	<tr><td>政治面貌：</td><td>
+		        	 <if condition="$vo.politics eq '党员'">
+		        	     <select name="sex"><option >团员</option><option selected="selected">党员</option><option>群众</option></select>
+		        	 <elseif condition="$vo.politics eq '群众'"/> <select name="sex"><option >团员</option><option selected="selected">党员</option><option>群众</option></select>
+		        	  <else/><select name="sex"><option >团员</option><option >党员</option><option>群众</option></select>
+		        	 </if>
+		        	 </td>
+		        	
+		        	<td>明星：</td><td><input type="text" name="star" value={$vo.star}></input></td></tr>
+		        	<tr><td>生日：</td><td> 
+						<select id="birthday" date="{$vo.birthday}" name="year" class="sel_month" rel="1"> </select> 月 
+						<select id="day" name="day" class="sel_day" rel="1"> </select> 日 
+                       </td><td>音乐：</td><td><input type="text" name="music" value={$vo.music}></input></td></tr>
+		        	<tr><td>现居地:</td><td><input type="text" name="newAddress" value={$vo.newaddress}></input></td><td>影视：</td><td><input type="text" name="film" value={$vo.film}></input></td></tr>
+                    <tr><td>婚姻状况: </td><td><select name="marriage">
+                    <if condition="$vo.marriage eq '已婚'">
+                         <option>否</option><option selected="selected">已婚</option>
+                     <else/>
+                          <option>否</option><option>已婚</option>
+                    </if>
+                    </select></td><td>游戏：</td><td><input type="text" name="game" value={$vo.game}></input></td></tr>
+		        	<tr><td>血型: </td><td><select name="blood">
+		        	<if condition="$vo.blood eq 'B' ">
+		        		<option>A</option><option selected="selected">B</option><option>O</option><option>其它</option>
+		        		<elseif condition="$vo.blood eq 'O' " /><option>A</option><option >B</option><option selected="selected">O</option><option>其它</option>
+		        		<elseif condition="$vo.blood eq '其它' " /><option>A</option><option >B</option><option>O</option><option selected="selected">其它</option>
+		        		<else/><option>A</option><option>B</option><option>O</option><option>其它</option>
+		        	</if>
+		        	
+		        	</select>
+		        	</td><td>数码：</td><td><input type="text" name="digit" value={$vi.digit}></input></td></tr>
+		        	<tr><td>故乡: </td><td><input type="text" name="hometown" value={$vo.hometown}></input></td><td>美食：</td><td><input type="text" name="food" value={$vo.food}></input></td></tr>
+		        	<tr><td>公司名称: </td><td><input type="text" name="company" value={$vo.company}></input></td><td>旅游：</td><td><input type="text" name="tour" value={$vo.tour}></input></td></tr>
+		        	<tr><td>公司所在地: </td><td><input type="text" name="companyAddress" value={$vo.companyaddress}></input></td><td>书籍：</td><td><input type="text" name="book" value={$vo.book}></input></td></tr>
+		        	<tr><td>详细地址: </td><td><input type="text" name="address" value={$vo.address}></input></td><td>其他：</td><td><input type="text" name="other" value={$vo.other}></input></td></tr> </form>
+		        	<tr ><td><input type="reset"></input></td><td><button id="ater1Button" useId="{$userId}" >提交</button></td></tr>
+		        	</volist>
+		        </table>  
+	   </div>
+
+  
+</block>
+<block name="script">
+	<script type="text/javascript" src="//{:HOME_JS_URL}person_alter.js"></script>
+   <script type="text/javascript" src="//{:HOME_JS_URL}birthday.js"></script>
+   <script >  
+	 var date=$("#birthday").attr('date');
+	  month=date.substring(0,date.lastIndexOf('-'));
+	  day=date.substring(date.lastIndexOf('-')+1,date.length);
+	  $("#birthday").attr('rel',month);
+	  $("#day").attr('rel',day);
+	 $(function () {
+	 		$.ms_DatePicker({
+	 	            YearSelector: ".sel_year",
+	 	            MonthSelector: ".sel_month",
+	 	            DaySelector: ".sel_day"
+	 	    });
+	 		$.ms_DatePicker();
+	 }); 
+</script> 
+</block>

@@ -1,0 +1,52 @@
+.log{
+	width: 400px;
+   
+    margin: 100 auto;
+    text-align: center;
+}
+.log input{
+	margin-right: 20px;
+	height: 30px;
+}
+.log tr{
+	height: 60px;
+}
+.log tr a{
+	margin-right:30px; 
+	text-align: center;
+	display: inline-block;
+}
+.modal-body span{
+	font-size: 13px;
+}
+#login_tab{
+	padding: 40px;
+	border-radius: 10px;
+	background: white;
+	margin:auto 0;
+}
+#logButton{
+	height:100px;
+	margin-top: 500px;
+	text-align: bottom;
+	padding-bottom: 10px;
+}
+.form-control{
+	width: 200px;
+}
+#loginBox{
+	margin-left: 100px;
+	text-align: center;
+}
+#close{
+	width: 100px;
+	float: right;
+	padding: 2px;
+	height: 20px;
+	padding-right: 29px;
+}
+.glyphicon{
+	float: right;
+	font-size:28px;
+	padding: 0;
+}

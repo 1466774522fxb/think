@@ -1,0 +1,28 @@
+.journal a{
+	margin-left: 20px;
+}
+.journal ul{
+	min-height: 400px;
+}
+.page_foot{
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+	
+	margin-bottom: 50px;
+	
+}
+.pagefoot{
+	margin-left: 20px; 
+	text-align: center; 
+	
+	display: inline-block; 
+	width:30px; 
+	border: 1px solid #000;
+}
+.list{
+	float: right
+}
+#move{
+	float: right;
+}

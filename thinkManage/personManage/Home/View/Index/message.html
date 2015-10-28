@@ -1,0 +1,99 @@
+<extend name="base"/>
+ <block name="style">
+   <link rel="stylesheet" type="text/css" href="//{:HOME_CSS_URL}message.css">
+ </block>
+ <block name="base">
+  <div id="title" class="collapse navbar-collapse navbar-responsive-collapse">
+    <ul class="nav navbar-nav">
+      <li ><a  href="main?Id={$userId}">主页</a></li>
+      <li><a href="journal?Id={$userId}{$reate}page=1">日志</a></li>
+      <li><a href="photo?Id={$userId}{$reate}page=1">相册</a></li>
+      <li  class="active"><a href="message?Id={$userId}">留言板</a></li>
+      <li><a href="person?Id={$userId}">个人档</a></li>
+      <li><a href="time?Id={$userId}{$reate}page=1">时光轴</a></li>
+      <li><a href="more?Id={$userId}">更多</a></li>
+    </ul>
+ </div>
+ <div class=".container">    
+   <div class="modal fade" id="myMessageModal" style="margin-top: 100px;" tabindex="-1"role="dialog"aria-labelledby="myModalLabel"aria-hidden="true">
+     <div class="modal-dialog">
+       <div class="modal-content">
+         <div class="modal-header" >
+            <button type="button"class="close"data-dismiss="modal"aria-hidden="true"> &times; </button>
+            <h4 class="modal-title"id="myModalLabel"> 留言窗口</h4>
+          </div>
+          <div class="modal-body">
+           <textarea id="say"  placeholder="请留下你想说的话。。。。。"></textarea>';
+         </div>
+          <div class="modal-footer">
+            <button type="button"class="btn btn-default"data-dismiss="modal">关闭 </button>
+            <button id="leave_ok" num="{$userId}" name="{$user}" type="button" class="btn btn-primary"> 确定</button>   
+          </div>
+       </div>
+     </div>
+    </div>
+  </div>  
+   <div class="message">
+      <span class="leave">留言板</span>
+      <div class="message_line"></div>
+      <div class="message_title">
+          <span class="leave_word">留言{$count}</span>
+          <if condition=" !($user eq '0') " >
+            <if condition=" !($user_id eq $userId) ">
+              <span class="leave_set"><a>给好友留言</a></span>
+            </if>
+          </if>  
+      </div>
+     <volist name="messageInfo" id='vo'>
+        <div class="msg">
+          <div class="left_head"><img src='//{:HOME_UPLOADS_URL}{$vo.head_img}'></div>
+          <div class="right_text">
+            <p><a href="//{:HOME_MAIN_URL}main?Id={$vo.seed_id}">{$vo.msg_name}</a> <span >{$vo.remark}</span></p>
+            <p class="p_text">{$vo.msg_text}</p>
+            <p class="p_foot"><span>{$vo.msg_time}</span>
+             <if condition=" !($user eq '0') " >
+                <if condition="$user_id eq $userId ">
+                     <a class="delete1" msgId={$vo.id}>删除</a>
+                    <if condition="!($vo.seed_id eq $user_id)">
+                      <a class="answer" text="{$user_id}">回复</a>
+                    </if>
+                 <else/>
+                    <if condition="!($vo.seed_id eq $user_id)">
+                      <a class="answer" text="{$user_id}">回复</a>
+                    </if>
+                </if>
+              <else/><a class="answer" text="{$user_id}">回复</a>
+              </if>
+           </p>
+           <?php $comment="comment".$i ?>
+           <foreach name="$comment" item="va" >
+               <div  class=huifu><img src='//{:HOME_UPLOADS_URL}{$va.head_img}' ><div class=rely_text><p class="relySay"><span><a>{$va.username}</a>   </span><span>{$va.rely_text}</span></p>
+                  <p class="relyTime"><span>{$va.rely_time}</span> 
+                   <if condition=" !($user eq '0') " >
+                     <if condition="$userId eq $user_id">
+                       <a class="relyDelete">删除</a>
+                     </if> 
+                   </if>
+                 </p>
+               </div>
+             </div>
+            </foreach>
+              <if condition=" !($user eq '0') " >
+                <if condition="!($vo.seed_id eq $user_id)">
+                  <div class="rely">
+                   <textarea class="me" text="{$user_id}" placeholder ="我也说一句"></textarea> 
+                   <div class="btn_group">
+                         <span><button class ="ok" num='{$vo.id}' >确定</button><button  class="rely_btn">取消</button></span> 
+                        </div>
+                      </div>
+                 </if>
+             </if>
+           </div>
+          <div class="clear_float"></div>
+        </div>
+      </volist>
+    </div> 
+</block>
+<block name="script">
+  <script type="text/javascript" src="//{:HOME_JS_URL}message.js"></script>
+</block>

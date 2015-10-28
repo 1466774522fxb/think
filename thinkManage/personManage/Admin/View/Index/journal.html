@@ -1,0 +1,67 @@
+<extend name="index" />
+<block name="text">
+<p>当前位置：后台管理/日志</p>
+<div id="journalInfo">
+ <div class="form-group">
+  <button id="addJournal" type="button" class="btn btn-info">添加日志</button>
+	<table class="table table-bordered" style="table-layout:fixed;">
+	<caption>日志信息</caption>
+	<tbody>	
+	<tr><th class="table_title">title</th><th class="table_text">text</th><th class="table_time">time</th></th><th class="table_time">operate</th></tr>
+	<volist name="info" id="vo">
+	<tr><td class="table_title">{$vo.title}</td><td class="table_text">{$vo.text}</td><td class="table_time">{$vo.time}</td><td class="table_time"><span class="removeJournal glyphicon glyphicon-remove"></span><span class="updateJournal glyphicon glyphicon-refresh"></span></td></tr>
+	</volist>
+   
+	</tbody>
+	</table>
+ </div>
+</div>
+<div class="notefoot">{$pagelist}</div>
+ <div class="modal fade" id="deleteModal" style="margin-top: 100px;" tabindex="-1"role="dialog"aria-labelledby="myModalLabel"aria-hidden="true">
+   <div class="modal-dialog">
+         <div class="modal-content">
+           <div class="modal-header">
+              <button type="button"class="close"data-dismiss="modal"aria-hidden="true"> &times; </button>
+              <h4 class="modal-title"id="myModalLabel">删除提示框</h4>
+            </div>
+            <div class="modal-body">
+              你真的确定要删除该记录吗！！！
+            </div>
+            <div class="modal-footer" style="clear: both;">
+              <button type="button"class="btn btn-default"data-dismiss="modal">关闭 </button>
+              <button id="delete_button" type="button"class="btn btn-primary"> 确定</button>
+            </div>
+         </div>
+   </div>
+</div>
+
+ <div class="modal fade" id="addJournal_info" style="margin-top: 100px;" tabindex="-1"role="dialog"aria-labelledby="myModalLabel"aria-hidden="true">
+                 <div class="modal-dialog">
+                       <div class="modal-content">
+                         <div class="modal-header">
+                            <button type="button"class="close"data-dismiss="modal"aria-hidden="true"> &times; </button>
+                            <h4 class="modal-title" id="journalLabel">
+                            日志
+                            </h4>
+                          </div>
+                          <div class="modal-body">
+                          <form id="jounal_info">
+                            
+                          <table>
+                             <tr><td>标题 :</td><td><input id="journal_title" type="text" class="form-control" name="journalTitle"></input></td></tr>
+                             <tr ><td >内容 :</td><td><textarea id="journal_txt" name="journal_text" class="form-control" ></textarea></td></tr>
+                           </table>
+                        </form>    
+                        
+                          </div>
+                          <div class="modal-footer" style="clear: both;">
+                            <button type="button"class="btn btn-default"data-dismiss="modal">关闭 </button>
+                            <button id="journal_button" type="button"class="btn btn-primary"> 提交</button>
+                          </div>
+                       </div>
+                 </div>
+           </div>
+
+<script type="text/javascript" src="//{:JOURNEY_URL}jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="//{:ADMIN_JS_URL}journal.js"></script>
+</block>

@@ -1,0 +1,387 @@
+[ 2015-10-26T12:37:57+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/LoginInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003667s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `user1` WHERE ( userName="" AND paswd="d41d8cd98f00b204e9800998ecf8427e" )  [ RunTime:0.0009s ]
+
+[ 2015-10-26T12:38:00+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/LoginInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003617s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `user1` WHERE ( userName="" AND paswd="d41d8cd98f00b204e9800998ecf8427e" )  [ RunTime:0.0008s ]
+
+[ 2015-10-26T12:39:33+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/LoginInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003486s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `user1` WHERE ( userName="xiaohu" AND paswd="202cb962ac59075b964b07152d234b70" )  [ RunTime:0.0009s ]
+
+[ 2015-10-26T12:39:55+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Index/deleteSay
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002896s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0082s ]
+SQL: DELETE FROM `message` WHERE ( Id=18 ) [ RunTime:0.1158s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0094s ]
+SQL: DELETE FROM `comment` WHERE ( msgId=18 ) [ RunTime:0.0531s ]
+
+[ 2015-10-26T12:40:01+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Index/deleteSay
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003594s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0085s ]
+SQL: DELETE FROM `message` WHERE ( Id=19 ) [ RunTime:0.0394s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0077s ]
+SQL: DELETE FROM `comment` WHERE ( msgId=19 ) [ RunTime:0.0309s ]
+
+[ 2015-10-26T12:40:26+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/LoginInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004110s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `user1` WHERE ( userName="fanxiaobing" AND paswd="202cb962ac59075b964b07152d234b70" )  [ RunTime:0.0009s ]
+
+[ 2015-10-26T12:40:54+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Index/addMessage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003672s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0079s ]
+SQL: INSERT INTO `message` (`number`,`msg_name`,`seed_id`,`msg_text`,`msg_time`) VALUES ('6','fanxiaobing','1',' 你现在在干什么？？','2015-10-26 12:40:54') [ RunTime:0.0637s ]
+
+[ 2015-10-26T12:41:49+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Index/alterPerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002949s ]
+SQL: SHOW COLUMNS FROM `person_info` [ RunTime:0.0102s ]
+SQL: UPDATE `person_info` SET `sex`='男',`birthday`='4-9',`marriage`='否',`blood`='A',`hometown`='',`company`='',`companyAddress`='',`address`='',`star`='',`music`='',`film`='',`game`='',`digit`='',`food`='',`tour`='',`book`='',`other`='' WHERE ( number=6 ) [ RunTime:0.0841s ]
+
+[ 2015-10-26T12:57:48+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/LoginInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003796s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `user1` WHERE ( userName="xiaohu" AND paswd="202cb962ac59075b964b07152d234b70" )  [ RunTime:0.0008s ]
+
+[ 2015-10-26T12:59:49+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Index/alert_Headimg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004070s ]
+NOTIC: [8] Undefined index: Imgurl D:\wamp\www\thinkManage\personManage\Home\Controller\IndexController.class.php 第 214 行.
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0152s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : UPDATE `person` SET `head_img`=NULL WHERE ( number= )
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : UPDATE `person` SET `head_img`=NULL WHERE ( number= )
+
+[ 2015-10-26T12:59:55+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/LoginInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003637s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `user1` WHERE ( userName="wo" AND paswd="202cb962ac59075b964b07152d234b70" )  [ RunTime:0.0009s ]
+
+[ 2015-10-26T13:00:29+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Index/alert_Headimg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005181s ]
+NOTIC: [8] Undefined index: Imgurl D:\wamp\www\thinkManage\personManage\Home\Controller\IndexController.class.php 第 214 行.
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0089s ]
+SQL: UPDATE `person` SET `head_img`=NULL WHERE ( number=11 ) [ RunTime:0.0428s ]
+
+[ 2015-10-26T13:00:50+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/LoginInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003716s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `user1` WHERE ( userName="wo" AND paswd="202cb962ac59075b964b07152d234b70" )  [ RunTime:0.0009s ]
+
+[ 2015-10-26T13:00:55+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Index/alert_Headimg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005669s ]
+NOTIC: [8] Undefined index: Imgurl D:\wamp\www\thinkManage\personManage\Home\Controller\IndexController.class.php 第 214 行.
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0088s ]
+SQL: UPDATE `person` SET `head_img`=NULL WHERE ( number=11 ) [ RunTime:0.0662s ]
+
+[ 2015-10-26T13:01:17+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/LoginInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003580s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `user1` WHERE ( userName="fanxiaobing" AND paswd="202cb962ac59075b964b07152d234b70" )  [ RunTime:0.0009s ]
+
+[ 2015-10-26T13:03:16+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Index/alert_Headimg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003654s ]
+NOTIC: [8] Undefined index: Imgurl D:\wamp\www\thinkManage\personManage\Home\Controller\IndexController.class.php 第 214 行.
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0112s ]
+SQL: UPDATE `person` SET `head_img`=NULL WHERE ( number=1 ) [ RunTime:0.0774s ]
+
+[ 2015-10-26T13:03:56+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/LoginInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003397s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `user1` WHERE ( userName="wo" AND paswd="202cb962ac59075b964b07152d234b70" )  [ RunTime:0.0009s ]
+
+[ 2015-10-26T13:04:15+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Index/alert_Headimg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003477s ]
+NOTIC: [8] Undefined index: Imgurl D:\wamp\www\thinkManage\personManage\Home\Controller\IndexController.class.php 第 214 行.
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0094s ]
+SQL: UPDATE `person` SET `head_img`=NULL WHERE ( number=11 ) [ RunTime:0.0481s ]
+
+[ 2015-10-26T13:04:34+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Index/alert_Headimg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004057s ]
+NOTIC: [8] Undefined index: Imgurl D:\wamp\www\thinkManage\personManage\Home\Controller\IndexController.class.php 第 214 行.
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0106s ]
+SQL: UPDATE `person` SET `head_img`=NULL WHERE ( number=11 ) [ RunTime:0.2091s ]
+
+[ 2015-10-26T13:04:48+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Index/alert_Headimg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003493s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0101s ]
+SQL: UPDATE `person` SET `head_img`='head5.png' WHERE ( number=11 ) [ RunTime:0.0531s ]
+
+[ 2015-10-26T13:05:16+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Index/alterPerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002877s ]
+SQL: SHOW COLUMNS FROM `person_info` [ RunTime:0.0104s ]
+SQL: UPDATE `person_info` SET `sex`='男',`birthday`='2-5',`marriage`='否',`blood`='A',`hometown`='',`company`='',`companyAddress`='',`address`='',`star`='',`music`='',`film`='',`game`='',`digit`='',`food`='',`tour`='',`book`='',`other`='' WHERE ( number=11 ) [ RunTime:0.0796s ]
+
+[ 2015-10-26T13:15:57+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Index/alterPerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002910s ]
+SQL: SHOW COLUMNS FROM `person_info` [ RunTime:0.0099s ]
+SQL: UPDATE `person_info` SET `sex`='男',`birthday`='2-5',`marriage`='已婚',`blood`='A',`hometown`='',`company`='',`companyAddress`='',`address`='',`star`='',`music`='',`film`='',`game`='',`digit`='',`food`='',`tour`='',`book`='',`other`='' WHERE ( number=11 ) [ RunTime:0.0743s ]
+
+[ 2015-10-26T13:16:10+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Index/alterPerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002877s ]
+SQL: SHOW COLUMNS FROM `person_info` [ RunTime:0.0113s ]
+SQL: UPDATE `person_info` SET `sex`='男',`birthday`='2-5',`marriage`='否',`blood`='A',`hometown`='',`company`='',`companyAddress`='',`address`='',`star`='',`music`='',`film`='',`game`='',`digit`='',`food`='',`tour`='',`book`='',`other`='' WHERE ( number=11 ) [ RunTime:0.0915s ]
+
+[ 2015-10-26T13:16:17+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Index/alterPerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002990s ]
+SQL: SHOW COLUMNS FROM `person_info` [ RunTime:0.0080s ]
+SQL: UPDATE `person_info` SET `sex`='男',`birthday`='2-5',`marriage`='否',`blood`='B',`hometown`='',`company`='',`companyAddress`='',`address`='',`star`='',`music`='',`film`='',`game`='',`digit`='',`food`='',`tour`='',`book`='',`other`='' WHERE ( number=11 ) [ RunTime:0.0682s ]
+
+[ 2015-10-26T13:23:34+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Index/alterPerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002898s ]
+SQL: SHOW COLUMNS FROM `person_info` [ RunTime:0.0088s ]
+SQL: UPDATE `person_info` SET `sex`='男',`birthday`='2-5',`marriage`='否',`blood`='其它',`hometown`='',`company`='',`companyAddress`='',`address`='',`star`='',`music`='',`film`='',`game`='',`digit`='',`food`='',`tour`='',`book`='',`other`='' WHERE ( number=11 ) [ RunTime:0.0611s ]
+
+[ 2015-10-26T13:23:43+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Index/alterPerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003097s ]
+SQL: SHOW COLUMNS FROM `person_info` [ RunTime:0.0097s ]
+SQL: UPDATE `person_info` SET `sex`='男',`birthday`='2-5',`marriage`='否',`blood`='A',`hometown`='',`company`='',`companyAddress`='',`address`='',`star`='',`music`='',`film`='',`game`='',`digit`='',`food`='',`tour`='',`book`='',`other`='' WHERE ( number=11 ) [ RunTime:0.0747s ]
+
+[ 2015-10-26T13:30:06+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/LoginInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003291s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `user1` WHERE ( userName="fanxiaobing" AND paswd="202cb962ac59075b964b07152d234b70" )  [ RunTime:0.0009s ]
+
+[ 2015-10-26T13:31:20+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Index/registerInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003354s ]
+
+[ 2015-10-26T13:31:39+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Index/registerInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002864s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `user1` WHERE ( userName="fanxiaobing" )  [ RunTime:0.0008s ]
+
+[ 2015-10-26T13:31:55+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Index/registerInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006263s ]
+
+[ 2015-10-26T13:32:07+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Index/registerInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005596s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `user1` WHERE ( userName="分特" )  [ RunTime:0.0009s ]
+SQL: INSERT INTO `user1` (`userName`,`paswd`) VALUES ('分特','202cb962ac59075b964b07152d234b70') [ RunTime:0.0505s ]
+SQL: SELECT * FROM `user1` WHERE ( userName="分特" )  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0091s ]
+SQL: INSERT INTO `person` (`number`,`head_img`) VALUES ('48','moren.jpg') [ RunTime:0.0305s ]
+SQL: SHOW COLUMNS FROM `person_info` [ RunTime:0.0085s ]
+SQL: INSERT INTO `person_info` (`number`) VALUES ('48') [ RunTime:0.0289s ]
+
+[ 2015-10-26T13:32:37+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/LoginInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002999s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `user1` WHERE ( userName="分特" AND paswd="202cb962ac59075b964b07152d234b70" )  [ RunTime:0.0009s ]
+
+[ 2015-10-26T13:40:10+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Index/addPhoto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003935s ]
+SQL: SHOW COLUMNS FROM `photo` [ RunTime:0.0079s ]
+SQL: INSERT INTO `photo` (`number`,`photo_url`) VALUES ('48','562dbcba98709.jpg') [ RunTime:0.0573s ]
+
+[ 2015-10-26T13:40:42+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Index/photoAlter
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013215s ]
+SQL: SHOW COLUMNS FROM `photo` [ RunTime:0.0166s ]
+SQL: DELETE FROM `photo` WHERE ( id=119 ) [ RunTime:0.0771s ]
+
+[ 2015-10-26T13:40:56+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Index/addPhoto
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004370s ]
+SQL: SHOW COLUMNS FROM `photo` [ RunTime:0.0103s ]
+SQL: INSERT INTO `photo` (`number`,`photo_url`) VALUES ('48','562dbce8676ba.jpg') [ RunTime:0.0569s ]
+
+[ 2015-10-26T16:44:39+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/LoginInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002900s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `user1` WHERE ( userName="fanxiaobing" AND paswd="202cb962ac59075b964b07152d234b70" )  [ RunTime:0.0010s ]
+
+[ 2015-10-26T16:44:53+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Index/alert_Headimg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004599s ]
+NOTIC: [8] Undefined index: Imgurl D:\wamp\www\thinkManage\personManage\Home\Controller\IndexController.class.php 第 217 行.
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0099s ]
+SQL: UPDATE `person` SET `head_img`=NULL WHERE ( number=1 ) [ RunTime:0.0526s ]
+
+[ 2015-10-26T16:46:59+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Index/alert_Headimg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003627s ]
+NOTIC: [8] Undefined index: Imgurl D:\wamp\www\thinkManage\personManage\Home\Controller\IndexController.class.php 第 217 行.
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0086s ]
+SQL: UPDATE `person` SET `head_img`=NULL WHERE ( number=1 ) [ RunTime:0.0555s ]
+
+[ 2015-10-26T16:47:15+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Index/alert_Headimg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003873s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0093s ]
+SQL: UPDATE `person` SET `head_img`='head4.png' WHERE ( number=1 ) [ RunTime:0.0368s ]
+
+[ 2015-10-26T16:59:07+08:00 ] ::1 /thinkManage/personManage/index.php/home/Index/alert_Headimg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004238s ]
+NOTIC: [8] Undefined index: Imgurl D:\wamp\www\thinkManage\personManage\Home\Controller\IndexController.class.php 第 217 行.
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0091s ]
+SQL: UPDATE `person` SET `head_img`=NULL WHERE ( number=1 ) [ RunTime:0.0474s ]
+
+[ 2015-10-26T17:00:18+08:00 ] ::1 /thinkManage/personManage/index.php/home/Index/alert_Headimg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004787s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0096s ]
+SQL: UPDATE `person` SET `head_img`='562deba1c70a5.jpg' WHERE ( number=1 ) [ RunTime:0.0517s ]
+
+[ 2015-10-26T17:00:24+08:00 ] ::1 /thinkManage/personManage/index.php/home/Index/alert_Headimg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004682s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0099s ]
+SQL: UPDATE `person` SET `head_img`='head5.png' WHERE ( number=1 ) [ RunTime:0.0529s ]
+
+[ 2015-10-26T17:00:51+08:00 ] ::1 /thinkManage/personManage/index.php/home/Index/alert_Headimg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003982s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0107s ]
+SQL: UPDATE `person` SET `head_img`='562debc393128.jpg' WHERE ( number=1 ) [ RunTime:0.0453s ]
+
+[ 2015-10-26T17:11:42+08:00 ] ::1 /thinkManage/personManage/index.php/home/Index/alterPerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002995s ]
+SQL: SHOW COLUMNS FROM `person_info` [ RunTime:0.0112s ]
+SQL: UPDATE `person_info` SET `sex`='团员',`birthday`='5-14',`marriage`='否',`blood`='A',`hometown`='河南许昌市',`company`='电子科技有限公司',`companyAddress`='河南省',`address`='109号',`star`='吴奇隆',`music`='幻听',`film`='',`game`='《qq飞车》',`digit`='',`food`='大闸蟹',`tour`='崇明岛',`book`='《android讲义》',`other`='' WHERE ( number=1 ) [ RunTime:0.0582s ]
+
+[ 2015-10-26T17:11:56+08:00 ] ::1 /thinkManage/personManage/index.php/home/Index/alterPerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003661s ]
+SQL: SHOW COLUMNS FROM `person_info` [ RunTime:0.0085s ]
+SQL: UPDATE `person_info` SET `sex`='团员',`birthday`='5-14',`marriage`='否',`blood`='A',`hometown`='河南许昌市',`company`='电子科技有限公司',`companyAddress`='河南省',`address`='109号',`star`='吴奇隆',`music`='幻听',`film`='',`game`='《qq飞车》',`digit`='',`food`='大闸蟹',`tour`='崇明岛',`book`='《android讲义》',`other`='' WHERE ( number=1 ) [ RunTime:0.0480s ]
+
+[ 2015-10-26T17:20:28+08:00 ] ::1 /thinkManage/personManage/index.php/home/Index/alterPerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003672s ]
+SQL: SHOW COLUMNS FROM `person_info` [ RunTime:0.0104s ]
+SQL: UPDATE `person_info` SET `politics`='党员',`birthday`='5-14',`marriage`='否',`blood`='A',`hometown`='河南许昌市',`company`='电子科技有限公司',`companyAddress`='河南省',`address`='109号',`star`='吴奇隆',`music`='幻听',`film`='',`game`='《qq飞车》',`digit`='',`food`='大闸蟹',`tour`='崇明岛',`book`='《android讲义》',`other`='' WHERE ( number=1 ) [ RunTime:0.0399s ]
+
+[ 2015-10-26T17:28:55+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Index/main?Id=
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `user1` WHERE ( Id= ) 
+
+[ 2015-10-26T17:29:35+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Index/registerInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005092s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `user1` WHERE ( userName="迷离" )  [ RunTime:0.0009s ]
+SQL: INSERT INTO `user1` (`userName`,`paswd`,`status`) VALUES ('迷离','d93591bdf7860e1e4ee2fca799911215','1') [ RunTime:0.0616s ]
+SQL: SELECT * FROM `user1` WHERE ( userName="迷离" )  [ RunTime:0.0321s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0097s ]
+SQL: INSERT INTO `person` (`number`,`head_img`) VALUES ('49','moren.jpg') [ RunTime:0.1522s ]
+SQL: SHOW COLUMNS FROM `person_info` [ RunTime:0.0132s ]
+SQL: INSERT INTO `person_info` (`number`) VALUES ('49') [ RunTime:0.0463s ]
+
+[ 2015-10-26T17:29:53+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Index/main?Id=
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `user1` WHERE ( Id= ) 
+
+[ 2015-10-26T17:30:04+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Index/main?Id=
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `user1` WHERE ( Id= ) 
+
+[ 2015-10-26T17:30:11+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Index/main?Id=
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `user1` WHERE ( Id= ) 
+
+[ 2015-10-26T17:30:32+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Index/main?Id=
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `user1` WHERE ( Id= ) 
+
+[ 2015-10-26T17:34:07+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/LoginInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004287s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `user1` WHERE ( userName="sss" AND paswd="d93591bdf7860e1e4ee2fca799911215" )  [ RunTime:0.0010s ]
+
+[ 2015-10-26T17:34:10+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/LoginInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003767s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `user1` WHERE ( userName="sss" AND paswd="d93591bdf7860e1e4ee2fca799911215" )  [ RunTime:0.0010s ]
+

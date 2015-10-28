@@ -1,0 +1,19 @@
+.add_title{
+	width: 100px;
+	text-align: right;
+	float: left;
+
+}
+.add_title li{
+
+    list-style: none;
+    height: 30px;
+}
+.add_text{
+	float: left;
+}
+.add_text li{
+	 height: 30px;
+	 width: 100px;
+    list-style: none;
+}

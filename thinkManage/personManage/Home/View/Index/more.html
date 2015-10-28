@@ -1,0 +1,60 @@
+<extend name="base"/>
+ <block name="base">
+  <div id="title" class="collapse navbar-collapse navbar-responsive-collapse">
+	  	<ul class="nav navbar-nav">
+	  		<li ><a  href="main?Id={$userId}">主页</a></li>
+	  		<li><a href="journal?Id={$userId}{$reate}page=1">日志</a></li>
+	  		<li><a href="photo?Id={$userId}{$reate}page=1">相册</a></li>
+	  		<li><a href="message?Id={$userId}">留言板</a></li>
+	  		<li><a href="person?Id={$userId}">个人档</a></li>
+	  		<li><a href="time?Id={$userId}{$reate}page=1">时光轴</a></li>
+	  		<li  class="active"><a href="more?Id={$userId}">更多</a></li>
+	  	</ul>
+  </div>
+ <div class="use">
+	 <h2 class="more_msg">应用</h2>
+	 <div class="uer_more" >
+		<ul>
+			<li>
+			  <a  href="person?Id={$userId}"><img src="//{:HOME_IMG_URL}more1.png"><span>个人档</span></a>
+		    </li>
+			<li>
+			  <a><img src="//{:HOME_IMG_URL}more2.png"><span>QQ日历</span></a>
+				</li>
+			<li>
+			  <a  href="journal?Id={$userId}{$reate}page=1"><img src="//{:HOME_IMG_URL}more3.png"><span>日志</span></a>
+				</li>
+			<li style="border-right:none; ">
+			   <a ><img src="//{:HOME_IMG_URL}more4.png" ><span>投票</span></a>
+			</li>
+			<li>
+			   <a ><img src="//{:HOME_IMG_URL}more5.png"><span>分享</span></a>
+			</li>
+			<li>
+				<a ><img src="//{:HOME_IMG_URL}more6.png"><span>访客</span></a>
+			</li>
+			<li>
+				<a ><img src="//{:HOME_IMG_URL}more7.png"><span>音乐</span></a>
+			</li>
+			<li style="border-right:none; ">
+				<a  href=""><img src="//{:HOME_IMG_URL}more8.png"><span>说说</span></a>
+			</li>
+			<li>
+				<a ><img src="//{:HOME_IMG_URL}more9.png"><span>礼物</span></a>
+			</li>
+			<li>
+				<a  href="message?Id={$userId}"><img src="//{:HOME_IMG_URL}more10.png"><span>留言板</span></a>
+			</li>
+			<li>
+				<a  href="photo?Id={$userId}{$reate}page=1"><img src="//{:HOME_IMG_URL}more11.png"><span>相册</span></a>
+				</li>
+			<li style="border-right:none; ">
+					<a ><img src="//{:HOME_IMG_URL}more12.png"><span>视频</span></a>
+			</li>
+			<li style="border-bottom: none;">
+				<a  href=""><img src="//{:HOME_IMG_URL}more13.png"><span>收藏</span></a>
+			</li>
+		</ul>
+	</div>
+</div>
+</block>

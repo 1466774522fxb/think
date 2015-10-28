@@ -1,0 +1,61 @@
+<extend name="base"/>
+<block name="style">
+     <link rel="stylesheet" type="text/css" href="//{:HOME_CSS_URL}time.css">
+</block>
+<block name="base">
+    <div id="title" class="collapse navbar-collapse navbar-responsive-collapse">
+      <ul class="nav navbar-nav">
+        <li ><a  href="main?Id={$userId}">主页</a></li>
+        <li><a href="journal?Id={$userId}{$reate}page=1">日志</a></li>
+        <li><a href="photo?Id={$userId}{$reate}page=1">相册</a></li>
+        <li><a href="message?Id={$userId}">留言板</a></li>
+        <li><a href="person?Id={$userId}">个人档</a></li>
+        <li  class="active"><a href="time?Id={$userId}{$reate}page=1">时光轴</a></li>
+        <li><a href="more?Id={$userId}">更多</a></li>
+      </ul>
+   </div>
+   <div id="timeFoot" >
+   <if condition="!($page eq '1')">
+      <span id="timeUp" class="btn btn-default" userId="{$userId}" page="{$page}" >上一页</span>
+   </if>
+   <if condition="!($page eq $total)">
+       <span id="timeDown" class="btn btn-default" userId="{$userId}" page="{$page}">下一页</span>
+   </if>
+  </div>
+	   <div class="time">
+	      <div id="lefttime">
+	      	  <div class="left_roller">
+            <volist name="memoInfo" id="vo">
+               <if condition="$i == 1">
+                <div class="notes" id="firstNote"  class="btn btn-default" data-  container="body" data-toggle="popover" data-placement="right" data-content="便签：{$vo.text}"><span> {$vo.time}</span></div>
+               <else/> <div class="notes"  class="btn btn-default" data-container="body" data-toggle="popover" data-placement="right" data-content="便签：{$vo.text}"><span> {$vo.time}</span></div>
+              
+             </if>
+           </volist>
+		   
+		     </div>
+	     </div>
+		   <div id="right_Note" >
+		   <div class="right_roller" >
+      
+             <volist name="noteInfo" id="vo">
+               <if condition="$i==1">
+               <div class="notebook" id="secondNote" class="btn btn-default" data- container="body" data-toggle="popover" data-placement="left" data-content="笔记：{$vo.text}">
+                               <p>{$vo.time}</p>
+                             </div>
+              <else/>
+                <div class="notebook"  class="btn btn-default" data- container="body" data-toggle="popover" data-placement="left" data-content="笔记：{$vo.text}">
+                 <p>{$vo.time}</p>
+               </div>
+             </if>                                               
+            </volist>                            
+		  	 </div>
+		   </div>
+		</div>
+	 <div>   	
+</div>
+
+</block>
+<block name="script">
+  <script type="text/javascript" src=" //{:HOME_JS_URL}time.js"></script>
+</block>

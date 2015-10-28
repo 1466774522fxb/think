@@ -1,0 +1,432 @@
+[ 2015-10-23T11:23:59+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/upadatePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003790s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0159s ]
+SQL: UPDATE `person` SET `sex`='男',`age`='13',`telephone`='2147483647',`qq`='2147483647',`email`='178344883434@qq.com',`address`='湖南省湘潭市' WHERE ( number=11 ) [ RunTime:0.0785s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002582s ]
+
+[ 2015-10-23T11:24:24+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/upadatePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003504s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0122s ]
+SQL: UPDATE `person` SET `sex`='男',`age`='13',`telephone`='2147483647',`qq`='0',`email`='178344883434@qq.com',`address`='湖南省湘潭市' WHERE ( number=11 ) [ RunTime:0.0440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002379s ]
+
+[ 2015-10-23T11:24:38+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/upadatePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005370s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0175s ]
+SQL: UPDATE `person` SET `sex`='男',`age`='13',`telephone`='2147483647',`qq`='2324234',`email`='178344883434@qq.com',`address`='湖南省湘潭市' WHERE ( number=11 ) [ RunTime:0.0826s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002238s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002585s ]
+
+[ 2015-10-23T11:24:57+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/upadatePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003398s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0122s ]
+SQL: UPDATE `person` SET `sex`='男',`age`='13',`telephone`='2147483647',`qq`='2324234',`email`='178344883434@qq.com',`address`='湖南省湘潭市' WHERE ( number=11 ) [ RunTime:0.0833s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002424s ]
+
+[ 2015-10-23T11:25:02+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/upadatePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003427s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0106s ]
+SQL: UPDATE `person` SET `sex`='男',`age`='13',`telephone`='2147483647',`qq`='2324234',`email`='178344883434@qq.com',`address`='湖南省湘潭市' WHERE ( number=11 ) [ RunTime:0.0747s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002524s ]
+
+[ 2015-10-23T11:26:54+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/upadatePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003559s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0134s ]
+SQL: UPDATE `person` SET `pinyin`='sadfas',`sex`='男',`age`='13',`telephone`='2147483647',`qq`='2324234',`email`='178344883434@qq.com',`address`='湖南省湘潭市' WHERE ( number=11 ) [ RunTime:0.0922s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002882s ]
+
+[ 2015-10-23T11:27:02+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/upadatePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004822s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0145s ]
+SQL: UPDATE `person` SET `pinyin`='sadfas',`sex`='男',`age`='13',`telephone`='2147483647',`qq`='2324234',`email`='178344883434@qq.com',`address`='湖南省湘潭市' WHERE ( number=11 ) [ RunTime:0.0770s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003255s ]
+
+[ 2015-10-23T11:28:29+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/upadatePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005080s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0110s ]
+SQL: UPDATE `person` SET `pinyin`='sadfas',`sex`='男',`age`='13',`telephone`='2147483647',`qq`='2324234',`email`='178344883434@qq.com',`address`='湖南省湘潭市' WHERE ( number=11 ) [ RunTime:0.0650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002769s ]
+
+[ 2015-10-23T11:29:12+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/upadatePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003182s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0123s ]
+SQL: UPDATE `person` SET `pinyin`='sadfas',`sex`='男',`age`='13',`telephone`='2147483647',`qq`='2324234',`email`='178344883434@qq.com',`address`='湖南省湘潭市' WHERE ( number=11 ) [ RunTime:0.0985s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002194s ]
+
+[ 2015-10-23T11:30:33+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/upadatePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003576s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0134s ]
+SQL: UPDATE `person` SET `pinyin`='sadfas',`sex`='男',`age`='13',`telephone`='2147483647',`qq`='2324234',`email`='178344883434@qq.com',`address`='湖南省湘潭市' WHERE ( number=11 ) [ RunTime:0.0532s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002640s ]
+
+[ 2015-10-23T11:31:58+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/upadatePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003238s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0135s ]
+SQL: UPDATE `person` SET `pinyin`='sadfas',`sex`='男',`age`='13',`telephone`='2147483647',`qq`='2324234',`email`='178344883434@qq.com',`address`='湖南省湘潭市' WHERE ( number=11 ) [ RunTime:0.0707s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001925s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002260s ]
+
+[ 2015-10-23T11:32:41+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/upadatePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003226s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0143s ]
+SQL: UPDATE `person` SET `pinyin`='sadfas',`sex`='男',`age`='13',`telephone`='2147483647',`qq`='2324234',`email`='178344883434@qq.com',`address`='湖南省湘潭市' WHERE ( number=11 ) [ RunTime:0.0777s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001923s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002255s ]
+
+[ 2015-10-23T11:33:13+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/upadatePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003533s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0104s ]
+SQL: UPDATE `person` SET `pinyin`='sadfas',`sex`='男',`age`='13',`telephone`='2147483647',`qq`='2324234',`email`='178344883434@qq.com',`address`='湖南省湘潭市' WHERE ( number=11 ) [ RunTime:0.0899s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002622s ]
+
+[ 2015-10-23T11:34:27+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/upadatePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003831s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0144s ]
+SQL: UPDATE `person` SET `pinyin`='sadfas',`sex`='男',`age`='13',`telephone`='2147483647',`qq`='2324234',`email`='178344883434@qq.com',`address`='湖南省湘潭市' WHERE ( number=11 ) [ RunTime:0.1127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002231s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002577s ]
+
+[ 2015-10-23T11:35:01+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/upadatePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003301s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0122s ]
+SQL: UPDATE `person` SET `pinyin`='sadfas',`sex`='男',`age`='13',`telephone`='2147483647',`qq`='2324234',`email`='178344883434@qq.com',`address`='湖南省湘潭市' WHERE ( number=11 ) [ RunTime:0.0924s ]
+
+[ 2015-10-23T11:37:55+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/upadatePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004004s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0138s ]
+SQL: UPDATE `person` SET `name`='上次发打发',`pinyin`='sadfas',`sex`='男',`age`='13',`telephone`='2147483647',`qq`='2324234',`email`='178344883434@qq.com',`address`='湖南省湘潭市' WHERE ( number=11 ) [ RunTime:0.0393s ]
+
+[ 2015-10-23T11:38:44+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/upadatePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005422s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0119s ]
+SQL: UPDATE `person` SET `name`='keys',`pinyin`='sadfas',`sex`='男',`age`='13',`telephone`='2147483647',`qq`='2324234',`email`='178344883434@qq.com',`address`='湖南省湘潭市' WHERE ( number=11 ) [ RunTime:0.0894s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002217s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002552s ]
+
+[ 2015-10-23T11:40:05+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/journal
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `journal` WHERE ( number= ) 
+
+[ 2015-10-23T11:41:15+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/addJournal
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004767s ]
+SQL: SHOW COLUMNS FROM `journal` [ RunTime:0.0101s ]
+SQL: INSERT INTO `journal` (`number`,`title`,`text`,`time`) VALUES ('11','明天如何','现在究竟怎么嗯','2015-10-23 11:41:15') [ RunTime:0.1155s ]
+
+[ 2015-10-23T11:42:02+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/addJournal
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003696s ]
+SQL: SHOW COLUMNS FROM `journal` [ RunTime:0.0158s ]
+SQL: INSERT INTO `journal` (`number`,`title`,`text`,`time`) VALUES ('11','世界','世界如此之大，怎么没有我容身的地方呢','2015-10-23 11:42:02') [ RunTime:0.1004s ]
+
+[ 2015-10-23T11:42:25+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/addJournal
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004015s ]
+SQL: SHOW COLUMNS FROM `journal` [ RunTime:0.0125s ]
+SQL: INSERT INTO `journal` (`number`,`title`,`text`,`time`) VALUES ('11','啊啊','大声的发生发出','2015-10-23 11:42:25') [ RunTime:0.0927s ]
+
+[ 2015-10-23T11:42:35+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateJournal
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003476s ]
+SQL: SHOW COLUMNS FROM `journal` [ RunTime:0.0131s ]
+SQL: UPDATE `journal` SET `title`='啊啊',`text`='大声的发生发出大沙发',`time`='2015-10-23 11:42:34' WHERE ( time="2015-10-23 11:42'2015-10-23 11:42:34'5" ) [ RunTime:0.0938s ]
+
+[ 2015-10-23T11:42:43+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/up
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005210s ]
+SQL: SHOW COLUMNS FROM `journal` [ RunTime:0.0099s ]
+SQL: DELETE FROM `journal` WHERE ( time="2015-10-23 11:42:34" ) [ RunTime:0.0507s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002843s ]
+
+[ 2015-10-23T11:44:07+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/addBook
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004268s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0122s ]
+SQL: INSERT INTO `books` (`person_num`,`book_title`,`image`,`text`,`author`) VALUES ('1','时代的更新','','','') [ RunTime:0.0758s ]
+
+[ 2015-10-23T11:45:53+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/addBook
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003740s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0125s ]
+SQL: INSERT INTO `books` (`person_num`,`book_title`,`image`,`text`,`author`) VALUES ('11','十大文档','Array
+(
+    [Filedata] => Array
+        (
+            [name] => 109.jpg
+            [type] => image/jpeg
+            [size] => 2234238
+            [key] => Filedata
+            [ext] => jpg
+            [md5] => b147746de2b424b48c24ede3e6645415
+            [sha1] => 2a724c989da97e5c7878a6819799ccf50a09d130
+            [savename] => 5629ad609cd46.jpg
+            [savepath] => /uploads/
+        )
+
+)
+\"5629ad609cd46.jpg\"','艾丝凡擦是否','大法') [ RunTime:0.1165s ]
+
+[ 2015-10-23T11:51:59+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateBook
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005296s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0098s ]
+SQL: UPDATE `books` SET `book_title`='十大文档',`image`='5629aecbce554.jpg',`text`='艾丝凡擦是否',`author`='大法' WHERE ( id=28 ) [ RunTime:0.0441s ]
+
+[ 2015-10-23T11:53:04+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateBook
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003871s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0120s ]
+SQL: UPDATE `books` SET `book_title`='十大文档',`image`='<img src=\"//localhost/thinkManage/personManage/public/uploads/5629aecbce554.jpg\" style=\"width: 50px;height: 50px;\">',`text`='艾丝凡擦是否四到G的GV是分公司答复',`author`='大法' WHERE ( id=28 ) [ RunTime:0.0760s ]
+
+[ 2015-10-23T11:57:09+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateBook
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003968s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0130s ]
+SQL: UPDATE `books` SET `book_title`='十大文档',`image`='5629b01055e4c.jpg',`text`='艾丝凡擦是否四到G的GV是分公司答复',`author`='大法' WHERE ( id=28 ) [ RunTime:0.0925s ]
+
+[ 2015-10-23T12:05:57+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateBook
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003664s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0142s ]
+SQL: UPDATE `books` SET `book_title`='十大文档',`image`='5629b01055e4c.jpg',`text`='艾丝凡擦是否四到G的G77V是分公司答复',`author`='大法' WHERE ( id=28 ) [ RunTime:0.0991s ]
+
+[ 2015-10-23T12:14:38+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateBook
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003046s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0684s ]
+ERR: 1054:Champ 'book_button' inconnu dans where clause
+ [ SQL语句 ] : UPDATE `books` SET `book_title`='十大电影',`image`='bookImg.jpg',`text`='历史悠久是打发斯蒂芬司法所',`author`='元元' WHERE ( id=book_button )
+ERR: 1054:Champ 'book_button' inconnu dans where clause
+ [ SQL语句 ] : UPDATE `books` SET `book_title`='十大电影',`image`='bookImg.jpg',`text`='历史悠久是打发斯蒂芬司法所',`author`='元元' WHERE ( id=book_button )
+
+[ 2015-10-23T12:14:51+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateBook
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002929s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0099s ]
+ERR: 1054:Champ 'book_button' inconnu dans where clause
+ [ SQL语句 ] : UPDATE `books` SET `book_title`='十大电影',`image`='bookImg.jpg',`text`='历史悠久是打发斯蒂芬司法所',`author`='元元' WHERE ( id=book_button )
+ERR: 1054:Champ 'book_button' inconnu dans where clause
+ [ SQL语句 ] : UPDATE `books` SET `book_title`='十大电影',`image`='bookImg.jpg',`text`='历史悠久是打发斯蒂芬司法所',`author`='元元' WHERE ( id=book_button )
+
+[ 2015-10-23T12:15:34+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/addBook
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003846s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0099s ]
+SQL: INSERT INTO `books` (`person_num`,`book_title`,`image`,`text`,`author`) VALUES ('11','十大电影','bookImg.jpg','撒的发生发发生的发生','四谛法') [ RunTime:0.0466s ]
+
+[ 2015-10-23T12:15:49+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateBook
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002918s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0148s ]
+SQL: UPDATE `books` SET `book_title`='十大电影',`image`='bookImg.jpg',`text`='撒的发生发发生的发生死的地方',`author`='四谛法' WHERE ( id=29 ) [ RunTime:0.0908s ]
+
+[ 2015-10-23T12:16:09+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/addBook
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003601s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0118s ]
+SQL: INSERT INTO `books` (`person_num`,`book_title`,`image`,`text`,`author`) VALUES ('11','萨','bookImg.jpg','是短发的','四谛法') [ RunTime:0.0865s ]
+
+[ 2015-10-23T12:16:22+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/deleteBook
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004691s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0112s ]
+SQL: DELETE FROM `books` WHERE ( Id=30 ) [ RunTime:0.2353s ]
+
+[ 2015-10-23T12:18:02+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/addNote
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004457s ]
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0125s ]
+SQL: INSERT INTO `note` (`number`,`num`,`text`,`time`) VALUES ('11','1','啊啊啊啊啊','10-23') [ RunTime:0.0741s ]
+
+[ 2015-10-23T12:18:11+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/addNote
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003517s ]
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0100s ]
+SQL: INSERT INTO `note` (`number`,`num`,`text`,`time`) VALUES ('11','0','阿斯顿法师打发斯蒂芬','10-23') [ RunTime:0.0441s ]
+
+[ 2015-10-23T12:18:33+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateNote
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003694s ]
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0099s ]
+SQL: UPDATE `note` SET `num`='0',`text`='阿斯顿法师打发斯蒂芬任霆发够被vserf',`time`='10-23' WHERE ( Id=34 ) [ RunTime:0.0515s ]
+
+[ 2015-10-23T12:18:40+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateNote
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003701s ]
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0130s ]
+SQL: UPDATE `note` SET `num`='0',`text`='啊啊啊啊啊色入GV晚上',`time`='10-23' WHERE ( Id=33 ) [ RunTime:0.0792s ]
+
+[ 2015-10-23T12:18:53+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateNote
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004667s ]
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0098s ]
+SQL: UPDATE `note` SET `num`='1',`text`='啊啊啊啊啊色入GV晚上',`time`='10-23' WHERE ( Id=33 ) [ RunTime:0.0832s ]
+
+[ 2015-10-23T13:05:23+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/deleteNote
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004864s ]
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0130s ]
+SQL: DELETE FROM `note` WHERE ( Id=33 ) [ RunTime:0.0445s ]
+
+[ 2015-10-23T13:05:29+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/addNote
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006733s ]
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0192s ]
+SQL: INSERT INTO `note` (`number`,`num`,`text`,`time`) VALUES ('11','1','dfvzefvaed','10-23') [ RunTime:0.0593s ]
+
+[ 2015-10-23T13:07:36+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/addNote
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003373s ]
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0260s ]
+SQL: INSERT INTO `note` (`number`,`num`,`text`,`time`) VALUES ('11','1','dcawedawe','10-23') [ RunTime:0.0491s ]
+
+[ 2015-10-23T13:08:06+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/deleteNote
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005460s ]
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0130s ]
+SQL: DELETE FROM `note` WHERE ( Id=36 ) [ RunTime:0.0843s ]
+
+[ 2015-10-23T13:08:13+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/addNote
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004198s ]
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0334s ]
+SQL: INSERT INTO `note` (`number`,`num`,`text`,`time`) VALUES ('11','1','sdfffffffffffffffffffffffe','10-23') [ RunTime:0.0421s ]
+
+[ 2015-10-23T13:23:51+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateNote
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003164s ]
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0551s ]
+SQL: UPDATE `note` SET `num`='0',`text`='ertgsetge',`time`='10-23' WHERE ( Id=34 ) [ RunTime:0.0438s ]
+
+[ 2015-10-23T13:23:57+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/addNote
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004386s ]
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0121s ]
+SQL: INSERT INTO `note` (`number`,`num`,`text`,`time`) VALUES ('11','1','ertgsretgesrtf','10-23') [ RunTime:0.0413s ]
+
+[ 2015-10-23T13:24:05+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/addNote
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003918s ]
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0125s ]
+SQL: INSERT INTO `note` (`number`,`num`,`text`,`time`) VALUES ('11','1','ertgesrtfgerter','10-23') [ RunTime:0.0603s ]
+
+[ 2015-10-23T13:24:12+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/addNote
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004539s ]
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0136s ]
+SQL: INSERT INTO `note` (`number`,`num`,`text`,`time`) VALUES ('11','1','ertggrfdgrdfgrer','10-23') [ RunTime:0.0573s ]
+
+[ 2015-10-23T13:24:19+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/addNote
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003939s ]
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0124s ]
+SQL: INSERT INTO `note` (`number`,`num`,`text`,`time`) VALUES ('11','1','rtgetgertg','10-23') [ RunTime:0.0860s ]
+
+[ 2015-10-23T13:32:40+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/checkPassword
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004735s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `user1` WHERE ( Id=11 )  [ RunTime:0.0009s ]
+SQL: UPDATE `user1` SET `paswd`='81dc9bdb52d04dc20036dbd8313ed055' WHERE ( id=11 ) [ RunTime:0.0592s ]
+
+[ 2015-10-23T13:35:02+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/deleteNote
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003452s ]
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0597s ]
+SQL: DELETE FROM `note` WHERE ( Id=41 ) [ RunTime:0.0547s ]
+

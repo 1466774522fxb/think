@@ -1,0 +1,62 @@
+<extend name="index" />
+<block name="text">
+<p>当前位置：后台管理/高级管理</p>
+ <div class="form-group">
+	<table class="table table-bordered" style="table-layout:fixed;">
+	<caption>人员信息</caption>
+	<tbody>	
+	<tr><th class="table_title">number</th><th class="table_text">name</th><th class="table_time">operate</th></tr>
+	<volist name="info" id="vo">
+    <if condition="!($vo.id eq '1')">
+      <tr><td class="table_title">{$vo.id}</td><td class="table_text">{$vo.username}</td><td class="table_time"><span class="removeJournal glyphicon glyphicon-remove"></span><span class="updateJournal glyphicon glyphicon-refresh"></span></td></tr>
+    </if>
+	</volist>
+   
+	</tbody>
+	</table>
+ </div>
+
+ <div class="modal fade" id="deletePerson" style="margin-top: 100px;" tabindex="-1"role="dialog"aria-labelledby="myModalLabel"aria-hidden="true">
+   <div class="modal-dialog">
+         <div class="modal-content">
+           <div class="modal-header">
+              <button type="button"class="close"data-dismiss="modal"aria-hidden="true"> &times; </button>
+              <h4 class="modal-title"id="myModalLabel">删除提示框</h4>
+            </div>
+            <div class="modal-body">
+              你真的确定要删除该用户吗！！！
+            </div>
+            <div class="modal-footer" style="clear: both;">
+              <button type="button"class="btn btn-default"data-dismiss="modal">关闭 </button>
+              <button id="delete_button" type="button"class="btn btn-primary"> 确定</button>
+            </div>
+         </div>
+   </div>
+</div>
+<div class="modal fade" id="updatePerson" style="margin-top: 100px;" tabindex="-1"role="dialog"aria-labelledby="myModalLabel"aria-hidden="true">
+   <div class="modal-dialog">
+         <div class="modal-content">
+           <div class="modal-header">
+              <button type="button"class="close"data-dismiss="modal"aria-hidden="true"> &times; </button>
+              <h4 class="modal-title"id="myModalLabel">修改提示框</h4>
+            </div>
+            <div class="modal-body">
+               <form id="user_info">
+                            
+                    <table>
+                      <tr><td>类型:</td><td><select name="userSelect"><option>用户名</option><option>密码</option></select></td></tr>
+                      <tr ><td >输入 :</td><td><input id="userNamePsd" type="text" class="form-control" name="userNamePsd"></input></td></tr>
+                     </table>
+              </form>   
+            </div>
+            <div class="modal-footer" style="clear: both;">
+              <button type="button"class="btn btn-default"data-dismiss="modal">关闭 </button>
+              <button id="update_button" type="button"class="btn btn-primary"> 确定</button>
+            </div>
+         </div>
+   </div>
+</div>
+</block>
+<block name="script">
+  <script type="text/javascript" src="//{:ADMIN_JS_URL}manage.js"></script>
+</block>

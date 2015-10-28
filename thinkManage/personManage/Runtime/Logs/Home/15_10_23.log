@@ -1,0 +1,319 @@
+[ 2015-10-23T11:16:42+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/captcha.php
+ERR: 非法操作:captcha.php
+
+[ 2015-10-23T11:16:55+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/LoginInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004130s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `user1` WHERE ( userName="wo" AND paswd="202cb962ac59075b964b07152d234b70" )  [ RunTime:0.0009s ]
+
+[ 2015-10-23T13:04:25+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/captcha.php
+ERR: 非法操作:captcha.php
+
+[ 2015-10-23T13:04:37+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/LoginInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005789s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `user1` WHERE ( userName="wo" AND paswd="202cb962ac59075b964b07152d234b70" )  [ RunTime:0.0009s ]
+
+[ 2015-10-23T13:32:58+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/captcha.php
+ERR: 非法操作:captcha.php
+
+[ 2015-10-23T13:33:08+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/LoginInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004139s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `user1` WHERE ( userName="wo" AND paswd="81dc9bdb52d04dc20036dbd8313ed055" )  [ RunTime:0.0008s ]
+
+[ 2015-10-23T17:32:08+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/captcha.php
+ERR: 非法操作:captcha.php
+
+[ 2015-10-23T18:12:57+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/captcha.php
+ERR: 非法操作:captcha.php
+
+[ 2015-10-23T18:13:04+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/LoginInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004009s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `user1` WHERE ( userName="fanxiaobing" AND paswd="81dc9bdb52d04dc20036dbd8313ed055" )  [ RunTime:0.0218s ]
+
+[ 2015-10-23T18:13:09+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/LoginInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003682s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `user1` WHERE ( userName="fanxiaobing" AND paswd="202cb962ac59075b964b07152d234b70" )  [ RunTime:0.0008s ]
+
+[ 2015-10-23T18:18:27+08:00 ] ::1 /thinkManage/personManage/index.php/home/Index/person?Id=1
+ERR: XML标签语法错误 : condition=" $vo.newAddress eq "" "
+
+[ 2015-10-23T18:19:19+08:00 ] ::1 /thinkManage/personManage/index.php/home/Index/person?Id=1
+ERR: XML标签语法错误 : condition=" !($vo.newAddress eq " ") "
+
+[ 2015-10-23T18:19:36+08:00 ] ::1 /thinkManage/personManage/index.php/home/Index/person?Id=1
+ERR: XML标签语法错误 : condition=" !({$vo.newAddress} eq " ") "
+
+[ 2015-10-23T18:33:24+08:00 ] ::1 /thinkManage/personManage/index.php/home/Index/alterPerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002860s ]
+SQL: SHOW COLUMNS FROM `person_info` [ RunTime:0.0083s ]
+SQL: UPDATE `person_info` SET `sex`='男',`birthday`='2-14',`marriage`='否',`blood`='A',`hometown`='河南许昌市',`company`='tengxu有限公司',`companyAddress`='11',`address`='北京市',`star`='吴奇隆',`music`='幻听',`film`='',`game`='《qq飞车》',`digit`='',`food`='大闸蟹',`tour`='崇明岛',`book`='《android讲义》',`other`='' WHERE ( number=1 ) [ RunTime:0.0542s ]
+
+[ 2015-10-23T22:16:31+08:00 ] ::1 /thinkManage/personManage/index.php/home/Index/photoAlter
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005315s ]
+ERR: 非法操作:photoAlter
+
+[ 2015-10-23T22:27:42+08:00 ] ::1 /thinkManage/personManage/index.php/home/Index/photoAlter
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004165s ]
+SQL: SHOW COLUMNS FROM `photo` [ RunTime:0.0052s ]
+SQL: DELETE FROM `photo` WHERE ( id=92 ) [ RunTime:0.0824s ]
+
+[ 2015-10-23T22:30:00+08:00 ] ::1 /thinkManage/personManage/index.php/home/Index/photoAlter
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002284s ]
+SQL: SHOW COLUMNS FROM `photo` [ RunTime:0.0075s ]
+SQL: DELETE FROM `photo` WHERE ( id=93 ) [ RunTime:0.0578s ]
+
+[ 2015-10-23T22:30:27+08:00 ] ::1 /thinkManage/personManage/index.php/home/Index/photoAlter
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008365s ]
+SQL: SHOW COLUMNS FROM `photo` [ RunTime:0.0128s ]
+SQL: DELETE FROM `photo` WHERE ( id=91 ) [ RunTime:0.0576s ]
+
+[ 2015-10-23T22:30:59+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/captcha.php
+ERR: 非法操作:captcha.php
+
+[ 2015-10-23T22:31:08+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/LoginInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003741s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `user1` WHERE ( userName="wo" AND paswd="202cb962ac59075b964b07152d234b70" )  [ RunTime:0.0009s ]
+
+[ 2015-10-23T22:31:15+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/LoginInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003388s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `user1` WHERE ( userName="wo" AND paswd="81dc9bdb52d04dc20036dbd8313ed055" )  [ RunTime:0.0008s ]
+
+[ 2015-10-23T22:31:35+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/captcha.php
+ERR: 非法操作:captcha.php
+
+[ 2015-10-23T22:32:06+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/LoginInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003605s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `user1` WHERE ( userName="wo" AND paswd="202cb962ac59075b964b07152d234b70" )  [ RunTime:0.0008s ]
+
+[ 2015-10-23T22:32:10+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/LoginInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003310s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `user1` WHERE ( userName="wo" AND paswd="81dc9bdb52d04dc20036dbd8313ed055" )  [ RunTime:0.0008s ]
+
+[ 2015-10-23T22:32:10+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/captcha.php
+ERR: 非法操作:captcha.php
+
+[ 2015-10-23T22:32:19+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/LoginInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002874s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `user1` WHERE ( userName="wo" AND paswd="81dc9bdb52d04dc20036dbd8313ed055" )  [ RunTime:0.0008s ]
+
+[ 2015-10-23T22:32:19+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/captcha.php
+ERR: 非法操作:captcha.php
+
+[ 2015-10-23T22:32:20+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/LoginInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002964s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `user1` WHERE ( userName="" AND paswd="d41d8cd98f00b204e9800998ecf8427e" )  [ RunTime:0.0008s ]
+
+[ 2015-10-23T22:33:39+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/captcha.php
+ERR: 非法操作:captcha.php
+
+[ 2015-10-23T22:33:44+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/LoginInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003396s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `user1` WHERE ( userName="fanxiaobing" AND paswd="81dc9bdb52d04dc20036dbd8313ed055" )  [ RunTime:0.0009s ]
+
+[ 2015-10-23T22:33:50+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/LoginInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003314s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `user1` WHERE ( userName="fanxiaobing" AND paswd="202cb962ac59075b964b07152d234b70" )  [ RunTime:0.0008s ]
+
+[ 2015-10-23T22:33:50+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/captcha.php
+ERR: 非法操作:captcha.php
+
+[ 2015-10-23T22:34:39+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/captcha.php
+ERR: 非法操作:captcha.php
+
+[ 2015-10-23T22:34:46+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/LoginInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003823s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `user1` WHERE ( userName="fanxiaobing" AND paswd="202cb962ac59075b964b07152d234b70" )  [ RunTime:0.0009s ]
+
+[ 2015-10-23T22:34:46+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/captcha.php
+ERR: 非法操作:captcha.php
+
+[ 2015-10-23T22:35:25+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/LoginInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002755s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `user1` WHERE ( userName="fanxiaobing" AND paswd="202cb962ac59075b964b07152d234b70" )  [ RunTime:0.0009s ]
+
+[ 2015-10-23T22:35:25+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/captcha.php
+ERR: 非法操作:captcha.php
+
+[ 2015-10-23T22:36:22+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/captcha.php
+ERR: 非法操作:captcha.php
+
+[ 2015-10-23T22:36:36+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/LoginInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002870s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `user1` WHERE ( userName="fanxiaobing" AND paswd="202cb962ac59075b964b07152d234b70" )  [ RunTime:0.0008s ]
+
+[ 2015-10-23T22:36:57+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/captcha.php
+ERR: 非法操作:captcha.php
+
+[ 2015-10-23T22:37:05+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/LoginInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004114s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `user1` WHERE ( userName="fanxiaobing" AND paswd="81dc9bdb52d04dc20036dbd8313ed055" )  [ RunTime:0.0008s ]
+
+[ 2015-10-23T22:37:18+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/LoginInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003691s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `user1` WHERE ( userName="fanxiaobing" AND paswd="202cb962ac59075b964b07152d234b70" )  [ RunTime:0.0010s ]
+
+[ 2015-10-23T22:37:20+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/captcha.php
+ERR: 非法操作:captcha.php
+
+[ 2015-10-23T22:37:25+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/LoginInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003741s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `user1` WHERE ( userName="fanxiaobing" AND paswd="202cb962ac59075b964b07152d234b70" )  [ RunTime:0.0009s ]
+
+[ 2015-10-23T22:37:28+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/captcha.php
+ERR: 非法操作:captcha.php
+
+[ 2015-10-23T22:37:31+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/captcha.php
+ERR: 非法操作:captcha.php
+
+[ 2015-10-23T22:37:37+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/LoginInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003800s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `user1` WHERE ( userName="fanxiaobing" AND paswd="202cb962ac59075b964b07152d234b70" )  [ RunTime:0.0008s ]
+
+[ 2015-10-23T22:37:37+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/captcha.php
+ERR: 非法操作:captcha.php
+
+[ 2015-10-23T22:37:57+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/LoginInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003589s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `user1` WHERE ( userName="fanxiaobing" AND paswd="202cb962ac59075b964b07152d234b70" )  [ RunTime:0.0008s ]
+
+[ 2015-10-23T22:37:57+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/captcha.php
+ERR: 非法操作:captcha.php
+
+[ 2015-10-23T22:38:49+08:00 ] ::1 /thinkManage/personManage/index.php/home/Index/relyMsg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003359s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0090s ]
+SQL: DELETE FROM `comment` WHERE ( rely_time="2015-10-23 10:15:20" ) [ RunTime:0.0851s ]
+
+[ 2015-10-23T22:38:53+08:00 ] ::1 /thinkManage/personManage/index.php/home/Index/relyMsg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003347s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0077s ]
+SQL: DELETE FROM `comment` WHERE ( rely_time="2015-09-20 15:44:08" ) [ RunTime:0.0452s ]
+
+[ 2015-10-23T22:39:20+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/captcha.php
+ERR: 非法操作:captcha.php
+
+[ 2015-10-23T22:39:29+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/LoginInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003642s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `user1` WHERE ( userName="wo" AND paswd="202cb962ac59075b964b07152d234b70" )  [ RunTime:0.0009s ]
+
+[ 2015-10-23T22:39:33+08:00 ] ::1 /thinkManage/personManage/index.php/Home/Manage/LoginInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003439s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `user1` WHERE ( userName="wo" AND paswd="81dc9bdb52d04dc20036dbd8313ed055" )  [ RunTime:0.0008s ]
+
+[ 2015-10-23T22:39:53+08:00 ] ::1 /thinkManage/personManage/index.php/home/Index/sayInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003567s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0103s ]
+SQL: INSERT INTO `comment` (`seed_person`,`msgId`,`rely_text`,`rely_time`) VALUES ('11','','dfvescfse','2015-10-23 22:39:53') [ RunTime:0.0978s ]
+
+[ 2015-10-23T22:40:02+08:00 ] ::1 /thinkManage/personManage/index.php/home/Index/sayInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003290s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0105s ]
+SQL: INSERT INTO `comment` (`seed_person`,`msgId`,`rely_text`,`rely_time`) VALUES ('11','','efwadcf','2015-10-23 22:40:02') [ RunTime:0.0522s ]
+
+[ 2015-10-23T22:42:35+08:00 ] ::1 /thinkManage/personManage/index.php/home/Index/sayInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003425s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0096s ]
+SQL: INSERT INTO `comment` (`seed_person`,`msgId`,`rely_text`,`rely_time`) VALUES ('11','','sdfasdfa','2015-10-23 22:42:34') [ RunTime:0.0819s ]
+
+[ 2015-10-23T22:45:21+08:00 ] ::1 /thinkManage/personManage/index.php/home/Index/sayInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003753s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0102s ]
+SQL: INSERT INTO `comment` (`seed_person`,`msgId`,`rely_text`,`rely_time`) VALUES ('11','','ertwertf','2015-10-23 22:45:21') [ RunTime:0.0933s ]
+
+[ 2015-10-23T22:45:45+08:00 ] ::1 /thinkManage/personManage/index.php/home/Index/sayInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003530s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0101s ]
+SQL: INSERT INTO `comment` (`seed_person`,`msgId`,`rely_text`,`rely_time`) VALUES ('11','','dfvsdfv','2015-10-23 22:45:45') [ RunTime:0.0836s ]
+

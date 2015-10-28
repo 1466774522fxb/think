@@ -1,0 +1,343 @@
+[ 2015-10-24T11:13:17+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/upadatePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004080s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0107s ]
+SQL: UPDATE `person` SET `name`='范晓冰',`pinyin`='fanxiaobing',`sex`='请选择',`age`='22',`telephone`='124535343',`qq`='1466774522',`email`='1466774522@qq.com',`address`='河南省新乡市' WHERE ( number=1 ) [ RunTime:0.0533s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002263s ]
+
+[ 2015-10-24T11:15:41+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateJournal
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004760s ]
+SQL: SHOW COLUMNS FROM `journal` [ RunTime:0.0143s ]
+SQL: UPDATE `journal` SET `title`='gg',`text`='人生之中，有两段分歧之路，而我们，在此间走过，我们也许并没有真正的去踏足过，我们也许面对着他们，放弃过。与之交臂而过，与他们相遇过，永远被他束缚着，一个人生，一个时刻，我们在此间流淌，奔流不息，涌流不止。',`time`='2015-10-24 11:15:41' WHERE ( time="2015-10-11 15:56'人生之中，有两段分歧之路，而我们，在此间走过，我们也许并没有真正的去踏足过，我们也许面对着他们，放弃过。与之交臂而过，与他们相遇过，永远被他束缚着，一个人生，一个时刻，我们在此间流淌，奔流不息，涌流不止。'0" ) [ RunTime:0.0435s ]
+
+[ 2015-10-24T11:16:16+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateJournal
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006083s ]
+SQL: SHOW COLUMNS FROM `journal` [ RunTime:0.0095s ]
+SQL: UPDATE `journal` SET `title`='时名_星海',`text`='人生之中，有两段分歧之路，而我们，在此间走过，我们也许并没有真正的去踏足过，我们也许面对着他们，放弃过。与之交臂而过，与他们相遇过，永远被他束缚着，一个人生，一个时刻，我们在此间流淌，奔流不息，涌流不止。',`time`='2015-10-24 11:16:16' WHERE ( time="2015-10-24 11'人生之中，有两段分歧之路，而我们，在此间走过，我们也许并没有真正的去踏足过，我们也许面对着他们，放弃过。与之交臂而过，与他们相遇过，永远被他束缚着，一个人生，一个时刻，我们在此间流淌，奔流不息，涌流不止。'5:41" ) [ RunTime:0.0578s ]
+
+[ 2015-10-24T11:19:16+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateJournal
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005662s ]
+SQL: SHOW COLUMNS FROM `journal` [ RunTime:0.0134s ]
+SQL: UPDATE `journal` SET `title`='dd',`text`='伟人之所以伟大，是因为他与别人共处逆境时，别人失去了信心，他却下决心实现自己的目标。一切障碍都是内心的魔杖在作乱，或许你天资平庸，或许你周围的一切都很平庸，平庸的学校，平庸的老师，平庸的家庭.....天赋并非人人都可享有，而高尚人人都可得到。',`time`='2015-10-24 11:19:15' WHERE ( time="2015-10-11 15'dd'9:57" ) [ RunTime:0.0777s ]
+
+[ 2015-10-24T11:19:51+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateJournal
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003886s ]
+SQL: SHOW COLUMNS FROM `journal` [ RunTime:0.0150s ]
+SQL: UPDATE `journal` SET `title`='一切皆有可能',`text`='伟人之所以伟大，是因为他与别人共处逆境时，别人失去了信心，他却下决心实现自己的目标。一切障碍都是内心的魔杖在作乱，或许你天资平庸，或许你周围的一切都很平庸，平庸的学校，平庸的老师，平庸的家庭.....天赋并非人人都可享有，而高尚人人都可得到。',`time`='2015-10-24 11:19:51' WHERE ( time="2015-10-24 11'伟人之所以伟大，是因为他与别人共处逆境时，别人失去了信心，他却下决心实现自己的目标。一切障碍都是内心的魔杖在作乱，或许你天资平庸，或许你周围的一切都很平庸，平庸的学校，平庸的老师，平庸的家庭.....天赋并非人人都可享有，而高尚人人都可得到。'9'伟人之所以伟大，是因为他与别人共处逆境时，别人失去了信心，他却下决心实现自己的目标。一切障碍都是内心的魔杖在作乱，或许你天资平庸，或许你周围的一切都很平庸，平庸的学校，平庸的老师，平庸的家庭.....天赋并非人人都可享有，而高尚人人都可得到。'5" ) [ RunTime:0.0347s ]
+
+[ 2015-10-24T11:21:37+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateJournal
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004137s ]
+SQL: SHOW COLUMNS FROM `journal` [ RunTime:0.0113s ]
+SQL: UPDATE `journal` SET `title`='11',`text`='人生的过程总会有进与退，在进的过程中难免有挫折，那挫折其实就是迈向成功所应缴的学费。而且含泪播种的人一定能含笑收获。可见，敢于进取让自己获益不少，所以我们要进！
+进需要坚定的信念与毅力。我们每个人都渴望成功，期待成功。人生路漫漫，因为内心那种期待成功的信念让我们不断前进。人生就像在大海中航行的船只，前进的信念是手中的一方罗盘，它使我们沿着捷径前行。我们要不断进取，奋斗，为自己的目标而努力，那份坚定的信念使我们前进，冲破面前的重重险滩。谁说遇到困难就要向后退，那种意志不坚定的人很难获得成功。于此，感谢那坚定的信念让我们前进。',`time`='2015-10-24 11:21:37' WHERE ( time="2015-10-11 15'人生的过程总会有进与退，在进的过程中难免有挫折，那挫折其实就是迈向成功所应缴的学费。而且含泪播种的人一定能含笑收获。可见，敢于进取让自己获益不少，所以我们要进！
+进需要坚定的信念与毅力。我们每个人都渴望成功，期待成功。人生路漫漫，因为内心那种期待成功的信念让我们不断前进。人生就像在大海中航行的船只，前进的信念是手中的一方罗盘，它使我们沿着捷径前行。我们要不断进取，奋斗，为自己的目标而努力，那份坚定的信念使我们前进，冲破面前的重重险滩。谁说遇到困难就要向后退，那种意志不坚定的人很难获得成功。于此，感谢那坚定的信念让我们前进。'0:45" ) [ RunTime:0.1802s ]
+
+[ 2015-10-24T11:22:04+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateJournal
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003283s ]
+SQL: SHOW COLUMNS FROM `journal` [ RunTime:0.0108s ]
+SQL: UPDATE `journal` SET `title`='前进，让人生无悔',`text`='人生的过程总会有进与退，在进的过程中难免有挫折，那挫折其实就是迈向成功所应缴的学费。而且含泪播种的人一定能含笑收获。可见，敢于进取让自己获益不少，所以我们要进！
+进需要坚定的信念与毅力。我们每个人都渴望成功，期待成功。人生路漫漫，因为内心那种期待成功的信念让我们不断前进。人生就像在大海中航行的船只，前进的信念是手中的一方罗盘，它使我们沿着捷径前行。我们要不断进取，奋斗，为自己的目标而努力，那份坚定的信念使我们前进，冲破面前的重重险滩。谁说遇到困难就要向后退，那种意志不坚定的人很难获得成功。于此，感谢那坚定的信念让我们前进。',`time`='2015-10-24 11:22:04' WHERE ( time="2015-10-24 11'2015-10-24 11:22:04'1:37" ) [ RunTime:0.0629s ]
+
+[ 2015-10-24T11:23:16+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateJournal
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004158s ]
+SQL: SHOW COLUMNS FROM `journal` [ RunTime:0.0249s ]
+SQL: UPDATE `journal` SET `title`='gg',`text`=' 流年清浅，岁月轮转，或许是冬天太过漫长，当一夜春风吹开万里柳时，心情也似乎开朗了许多，在一个风轻云淡的早晨，踏着初春的阳光，漫步在碧柳垂青的小河边，看小河的流水因为解开了冰冻而欢快的流淌， 清澈见底的的河水，可以数得清河底的鹅软石，偶尔掠过水面的水鸟，让小河荡起一层层的涟漪。河岸换上绿色的新装，刚刚睡醒的各种各样的花花草草，悄悄的露出了嫩芽，这儿一丛，那儿一簇，好像是交头接耳的议论着些什么，又好象是在偷偷地说着悄悄话。',`time`='2015-10-24 11:23:15' WHERE ( time="2015-10-11 15:55:54" ) [ RunTime:0.2665s ]
+
+[ 2015-10-24T11:26:30+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateJournal
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004694s ]
+SQL: SHOW COLUMNS FROM `journal` [ RunTime:0.0149s ]
+SQL: UPDATE `journal` SET `title`='悄悄话',`text`=' 流年清浅，岁月轮转，或许是冬天太过漫长，当一夜春风吹开万里柳时，心情也似乎开朗了许多，在一个风轻云淡的早晨，踏着初春的阳光，漫步在碧柳垂青的小河边，看小河的流水因为解开了冰冻而欢快的流淌， 清澈见底的的河水，可以数得清河底的鹅软石，偶尔掠过水面的水鸟，让小河荡起一层层的涟漪。河岸换上绿色的新装，刚刚睡醒的各种各样的花花草草，悄悄的露出了嫩芽，这儿一丛，那儿一簇，好像是交头接耳的议论着些什么，又好象是在偷偷地说着悄悄话。',`time`='2015-10-24 11:26:30' WHERE ( time="2015-10-24 11'2015-10-24 11:26:30'3' 流年清浅，岁月轮转，或许是冬天太过漫长，当一夜春风吹开万里柳时，心情也似乎开朗了许多，在一个风轻云淡的早晨，踏着初春的阳光，漫步在碧柳垂青的小河边，看小河的流水因为解开了冰冻而欢快的流淌， 清澈见底的的河水，可以数得清河底的鹅软石，偶尔掠过水面的水鸟，让小河荡起一层层的涟漪。河岸换上绿色的新装，刚刚睡醒的各种各样的花花草草，悄悄的露出了嫩芽，这儿一丛，那儿一簇，好像是交头接耳的议论着些什么，又好象是在偷偷地说着悄悄话。'5" ) [ RunTime:0.0920s ]
+
+[ 2015-10-24T11:27:01+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateJournal
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002878s ]
+SQL: SHOW COLUMNS FROM `journal` [ RunTime:0.0106s ]
+SQL: UPDATE `journal` SET `title`='心灵的静思，拥有冥想时刻',`text`=' 闭上双眼，放空心灵。可否在某一个时刻，拥有属于自己的冥想时刻随着社会节奏的加快，人们越来越追求速度的当今现状。那一份属于心灵的静思已经离人越来越遥远了。但是生活中的真理，往往在这一刻才得以诞生的。
+			     而那些经典的静思语录，无不在呐喊着心灵的归属。',`time`='2015-10-24 11:27:01' WHERE ( time="2015-09-19 17:35:36" ) [ RunTime:0.1048s ]
+
+[ 2015-10-24T11:28:05+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateJournal
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004011s ]
+SQL: SHOW COLUMNS FROM `journal` [ RunTime:0.0103s ]
+SQL: UPDATE `journal` SET `title`='春天来了',`text`=' 几只从南方归来的燕子，轻盈的飞来飞去，“几处早莺争暖树，谁家新燕啄春泥，”其乐融融的山林气息，与世无争的世外桃源，让人心旷神怡',`time`='2015-10-24 11:28:05' WHERE ( time="2015-10-24 11'2015-10-24 11:28:05'7'春天来了'1" ) [ RunTime:0.0803s ]
+
+[ 2015-10-24T11:28:50+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateJournal
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004987s ]
+SQL: SHOW COLUMNS FROM `journal` [ RunTime:0.0114s ]
+SQL: UPDATE `journal` SET `title`='时刻',`text`='一个人踮着脚尖，在窄窄的跑道白线上走，走到很远的地方又走回来。阳光很好，温暖，柔和。漫天的安静。',`time`='2015-10-24 11:28:49' WHERE ( time="2015-09-22 13'一个人踮着脚尖，在窄窄的跑道白线上走，走到很远的地方又走回来。阳光很好，温暖，柔和。漫天的安静。'4:40" ) [ RunTime:0.0715s ]
+
+[ 2015-10-24T11:30:39+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateJournal
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005954s ]
+SQL: SHOW COLUMNS FROM `journal` [ RunTime:0.0144s ]
+SQL: UPDATE `journal` SET `title`='一切皆有可能',`text`='伟人之所以伟大，是因为他与别人共处逆境时，别人失去了信心，他却下决心实现自己的目标。一切障碍都是内心的魔杖在作乱，或许你天资平庸，或许你周围的一切都很平庸，平庸的学校，平庸的老师，平庸的家庭.....天赋并非人人都可享有，而高尚人人都可得到。0',`time`='2015-10-24 11:30:39' WHERE ( time="2015-10-24 11'伟人之所以伟大，是因为他与别人共处逆境时，别人失去了信心，他却下决心实现自己的目标。一切障碍都是内心的魔杖在作乱，或许你天资平庸，或许你周围的一切都很平庸，平庸的学校，平庸的老师，平庸的家庭.....天赋并非人人都可享有，而高尚人人都可得到。0'9:51" ) [ RunTime:0.1098s ]
+
+[ 2015-10-24T11:31:14+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateBook
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003595s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0108s ]
+SQL: UPDATE `books` SET `book_title`='硅谷之火',`image`='book3.png',`text`='《硅谷之火：人与计算机的未来》以一个个生动的故事，介绍了计算机爱好者以怎样的创新精神和不懈的努力，将计算机技术的力量包装在一个小巧玲珑的机壳里，实现了个人拥有计算机的梦想。',`author`='保罗·弗赖伯格' WHERE ( id=2 ) [ RunTime:0.0985s ]
+
+[ 2015-10-24T11:31:29+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateBook
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009649s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0108s ]
+SQL: UPDATE `books` SET `book_title`='疯狂Java讲义1',`image`='book5.png',`text`='《疯狂软件教育标准教材：疯狂Java讲义（第3版》深入介绍了Java编程的相关方面，全书内容覆盖了Java的基本语法结构、Java的面向对象特征、Java集合框架体系、Java泛型、异常处理、JavaGUI编程、JDBC数据库编程......',`author`='李刚' WHERE ( id=2 ) [ RunTime:0.0566s ]
+
+[ 2015-10-24T11:31:50+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateBook
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004822s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0148s ]
+SQL: UPDATE `books` SET `book_title`='疯狂Java讲义',`image`='book5.png',`text`='《疯狂软件教育标准教材：疯狂Java讲义（第3版》深入介绍了Java编程的相关方面，全书内容覆盖了Java的基本语法结构、Java的面向对象特征、Java集合框架体系、Java泛型、异常处理、JavaGUI编程、JDBC数据库编程......',`author`='李刚' WHERE ( id=2 ) [ RunTime:0.0836s ]
+
+[ 2015-10-24T11:51:44+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/upadatePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003472s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0094s ]
+SQL: UPDATE `person` SET `name`='范晓冰',`pinyin`='fanxiaobing',`sex`='男',`age`='22',`telephone`='124535343',`qq`='1466774522',`email`='1466774522@qq.com',`address`='河南省新乡市' WHERE ( number=1 ) [ RunTime:0.0562s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002238s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002569s ]
+
+[ 2015-10-24T11:58:05+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateNote
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004138s ]
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0107s ]
+SQL: UPDATE `note` SET `num`='1',`text`='只有',`time`='10-24' WHERE ( Id=16 ) [ RunTime:0.1348s ]
+
+[ 2015-10-24T22:04:33+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/deletePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003777s ]
+NOTIC: [8] Undefined index: Id D:\wamp\www\thinkManage\personManage\Admin\Controller\IndexController.class.php 第 158 行.
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0408s ]
+
+[ 2015-10-24T22:06:58+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/deletePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003728s ]
+NOTIC: [8] Undefined index: Id D:\wamp\www\thinkManage\personManage\Admin\Controller\IndexController.class.php 第 158 行.
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0102s ]
+
+[ 2015-10-24T22:09:07+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/deletePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003497s ]
+NOTIC: [8] Undefined index: Id D:\wamp\www\thinkManage\personManage\Admin\Controller\IndexController.class.php 第 158 行.
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0356s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : UPDATE `user1` SET `paswd`='dc55f5f8fa960d425dd3a6c73d95a5db' WHERE ( id= )
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : UPDATE `user1` SET `paswd`='dc55f5f8fa960d425dd3a6c73d95a5db' WHERE ( id= )
+
+[ 2015-10-24T22:10:11+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/deletePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005216s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0089s ]
+SQL: UPDATE `user1` SET `paswd`='a6e3c21fc42fb889f5e7a1ccc70a4cb9' WHERE ( id=47 ) [ RunTime:0.0813s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0294s ]
+ERR: 1054:Champ 'person_num47' inconnu dans where clause
+ [ SQL语句 ] : DELETE FROM `books` WHERE ( person_num47 )
+ERR: 1054:Champ 'person_num47' inconnu dans where clause
+ [ SQL语句 ] : DELETE FROM `books` WHERE ( person_num47 )
+
+[ 2015-10-24T22:11:53+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/deletePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003651s ]
+
+[ 2015-10-24T22:12:18+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/deletePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003689s ]
+
+[ 2015-10-24T22:12:51+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/deletePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003524s ]
+
+[ 2015-10-24T22:13:16+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/deletePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004855s ]
+
+[ 2015-10-24T22:13:43+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/deletePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003966s ]
+
+[ 2015-10-24T22:15:50+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/deletePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003625s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0092s ]
+SQL: UPDATE `user1` SET `paswd`='88387ebd9731096f5ecc0e697dfd7e84' WHERE ( id=47 ) [ RunTime:0.0785s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0086s ]
+ERR: 1054:Champ 'person_num47' inconnu dans where clause
+ [ SQL语句 ] : DELETE FROM `books` WHERE ( person_num47 )
+ERR: 1054:Champ 'person_num47' inconnu dans where clause
+ [ SQL语句 ] : DELETE FROM `books` WHERE ( person_num47 )
+
+[ 2015-10-24T22:16:21+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/deletePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004529s ]
+SQL: SHOW COLUMNS FROM `person_info` [ RunTime:0.0111s ]
+SQL: DELETE FROM `person_info` WHERE ( number=47 ) [ RunTime:0.1209s ]
+
+[ 2015-10-24T22:17:54+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/deletePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004833s ]
+SQL: SHOW COLUMNS FROM `photo` [ RunTime:0.0091s ]
+SQL: DELETE FROM `photo` WHERE ( number=47 ) [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `person_info` [ RunTime:0.0534s ]
+SQL: DELETE FROM `person_info` WHERE ( number=47 ) [ RunTime:0.0007s ]
+
+[ 2015-10-24T22:18:31+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/deletePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003162s ]
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0088s ]
+SQL: DELETE FROM `note` WHERE ( number=47 ) [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `photo` [ RunTime:0.0279s ]
+SQL: DELETE FROM `photo` WHERE ( number=47 ) [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `person_info` [ RunTime:0.0090s ]
+SQL: DELETE FROM `person_info` WHERE ( number=47 ) [ RunTime:0.0007s ]
+
+[ 2015-10-24T22:19:05+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/deletePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004197s ]
+SQL: SHOW COLUMNS FROM `journal` [ RunTime:0.0105s ]
+SQL: DELETE FROM `journal` WHERE ( number=47 ) [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0086s ]
+SQL: DELETE FROM `note` WHERE ( number=47 ) [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `photo` [ RunTime:0.0089s ]
+SQL: DELETE FROM `photo` WHERE ( number=47 ) [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `person_info` [ RunTime:0.0101s ]
+SQL: DELETE FROM `person_info` WHERE ( number=47 ) [ RunTime:0.0008s ]
+
+[ 2015-10-24T22:19:33+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/deletePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002903s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0093s ]
+ERR: 1054:Champ 'person_num47' inconnu dans where clause
+ [ SQL语句 ] : DELETE FROM `books` WHERE ( person_num47 )
+ERR: 1054:Champ 'person_num47' inconnu dans where clause
+ [ SQL语句 ] : DELETE FROM `books` WHERE ( person_num47 )
+
+[ 2015-10-24T22:20:54+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/deletePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003254s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0111s ]
+SQL: DELETE FROM `books` WHERE ( person_num=47 ) [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `journal` [ RunTime:0.0333s ]
+SQL: DELETE FROM `journal` WHERE ( number=47 ) [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0087s ]
+SQL: DELETE FROM `note` WHERE ( number=47 ) [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `photo` [ RunTime:0.0105s ]
+SQL: DELETE FROM `photo` WHERE ( number=47 ) [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `person_info` [ RunTime:0.0098s ]
+SQL: DELETE FROM `person_info` WHERE ( number=47 ) [ RunTime:0.0007s ]
+
+[ 2015-10-24T22:22:00+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/deletePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002909s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0095s ]
+SQL: UPDATE `user1` SET `paswd`='970ff1941ddd4aef2369867d905f7ba0' WHERE ( id=47 ) [ RunTime:0.0899s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0079s ]
+SQL: DELETE FROM `books` WHERE ( person_num=47 ) [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `journal` [ RunTime:0.0098s ]
+SQL: DELETE FROM `journal` WHERE ( number=47 ) [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0099s ]
+SQL: DELETE FROM `note` WHERE ( number=47 ) [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `photo` [ RunTime:0.0095s ]
+SQL: DELETE FROM `photo` WHERE ( number=47 ) [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `person_info` [ RunTime:0.0272s ]
+SQL: DELETE FROM `person_info` WHERE ( number=47 ) [ RunTime:0.0007s ]
+
+[ 2015-10-24T22:27:11+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/deletePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004427s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0092s ]
+SQL: UPDATE `user1` SET `paswd`='aa1e6c7afc1ef606e364df7f5e3bddd8',`status`='0' WHERE ( id=47 ) [ RunTime:0.0961s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0234s ]
+SQL: DELETE FROM `books` WHERE ( person_num=47 ) [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `journal` [ RunTime:0.0092s ]
+SQL: DELETE FROM `journal` WHERE ( number=47 ) [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0086s ]
+SQL: DELETE FROM `note` WHERE ( number=47 ) [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `photo` [ RunTime:0.0078s ]
+SQL: DELETE FROM `photo` WHERE ( number=47 ) [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `person_info` [ RunTime:0.0102s ]
+SQL: DELETE FROM `person_info` WHERE ( number=47 ) [ RunTime:0.0007s ]
+
+[ 2015-10-24T22:30:51+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/deletePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003302s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0088s ]
+SQL: UPDATE `user1` SET `paswd`='55e56aa036339df975684c37746b175f',`status`='0' WHERE ( id=44 ) [ RunTime:0.0600s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0080s ]
+SQL: DELETE FROM `books` WHERE ( person_num=44 ) [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `journal` [ RunTime:0.0089s ]
+SQL: DELETE FROM `journal` WHERE ( number=44 ) [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0084s ]
+SQL: DELETE FROM `note` WHERE ( number=44 ) [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `photo` [ RunTime:0.0101s ]
+SQL: DELETE FROM `photo` WHERE ( number=44 ) [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `person_info` [ RunTime:0.0099s ]
+SQL: DELETE FROM `person_info` WHERE ( number=44 ) [ RunTime:0.0647s ]
+
+[ 2015-10-24T22:31:44+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/deletePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003460s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0091s ]
+SQL: UPDATE `user1` SET `paswd`='a7604dca17a27a261c41dfcf2b79a94d',`status`='0' WHERE ( id=43 ) [ RunTime:0.0856s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0099s ]
+SQL: DELETE FROM `books` WHERE ( person_num=43 ) [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `journal` [ RunTime:0.0097s ]
+SQL: DELETE FROM `journal` WHERE ( number=43 ) [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0092s ]
+SQL: DELETE FROM `note` WHERE ( number=43 ) [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `photo` [ RunTime:0.0079s ]
+SQL: DELETE FROM `photo` WHERE ( number=43 ) [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `person_info` [ RunTime:0.0096s ]
+SQL: DELETE FROM `person_info` WHERE ( number=43 ) [ RunTime:0.0557s ]
+

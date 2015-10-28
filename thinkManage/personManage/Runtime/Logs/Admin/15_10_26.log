@@ -1,0 +1,129 @@
+[ 2015-10-26T12:51:18+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/addJournal
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003443s ]
+SQL: SHOW COLUMNS FROM `journal` [ RunTime:0.0104s ]
+SQL: INSERT INTO `journal` (`number`,`title`,`text`,`time`) VALUES ('1','aaaaaaaaaaaaaaaaa','bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb','2015-10-26 12:51:18') [ RunTime:0.0716s ]
+
+[ 2015-10-26T12:51:37+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateJournal
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004487s ]
+SQL: SHOW COLUMNS FROM `journal` [ RunTime:0.0122s ]
+SQL: UPDATE `journal` SET `title`='aaaaaaaaaaaaaaaaa',`text`='ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb',`time`='2015-10-26 12:51:37' WHERE ( time="2015-10-26 12:51'ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb'8" ) [ RunTime:0.0480s ]
+
+[ 2015-10-26T12:51:43+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/deleteJournal
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003358s ]
+SQL: SHOW COLUMNS FROM `journal` [ RunTime:0.0087s ]
+SQL: DELETE FROM `journal` WHERE ( time="2015-10-26 12:51:37" ) [ RunTime:0.0414s ]
+
+[ 2015-10-26T12:52:46+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/addNote
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005730s ]
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0076s ]
+SQL: INSERT INTO `note` (`number`,`num`,`text`,`time`) VALUES ('1','1','vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv','10-26') [ RunTime:0.0594s ]
+
+[ 2015-10-26T12:53:09+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateNote
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004706s ]
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0094s ]
+SQL: UPDATE `note` SET `num`='1',`text`='vcvcccccccccccccccccvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv',`time`='10-26' WHERE ( Id=41 ) [ RunTime:0.0723s ]
+
+[ 2015-10-26T12:53:20+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/deleteNote
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004578s ]
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0081s ]
+SQL: DELETE FROM `note` WHERE ( Id=41 ) [ RunTime:0.1019s ]
+
+[ 2015-10-26T12:54:50+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/addBook
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003053s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0084s ]
+SQL: INSERT INTO `books` (`person_num`,`book_title`,`image`,`text`,`author`) VALUES ('1','英语之子','562db213353df.jpg','AV发 温都水城的参数','和') [ RunTime:0.1134s ]
+
+[ 2015-10-26T12:55:10+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateBook
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003647s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0769s ]
+SQL: UPDATE `books` SET `book_title`='英语之子',`image`='562db213353df.jpg',`text`='AV发 温都水vvvvvvv城的参数',`author`='和' WHERE ( id=31 ) [ RunTime:0.0358s ]
+
+[ 2015-10-26T12:55:29+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateBook
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009805s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0079s ]
+SQL: UPDATE `books` SET `book_title`='英语之子',`image`='562db213353df.jpg',`text`='AV发 温都水vvvvvvv城的参数',`author`='和撒的发生' WHERE ( id=31 ) [ RunTime:0.0942s ]
+
+[ 2015-10-26T12:56:15+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateBook
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002909s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0095s ]
+SQL: UPDATE `books` SET `book_title`='英语之子',`image`='562db213353df.jpg',`text`='美丽的语言传说',`author`='赵志' WHERE ( id=31 ) [ RunTime:0.0817s ]
+
+[ 2015-10-26T12:56:33+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/addBook
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003723s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0089s ]
+SQL: INSERT INTO `books` (`person_num`,`book_title`,`image`,`text`,`author`) VALUES ('1','阿发达','bookImg.jpg','阿萨德发出啥单词设置','方法') [ RunTime:0.0796s ]
+
+[ 2015-10-26T12:56:41+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/deleteBook
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005989s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0092s ]
+SQL: DELETE FROM `books` WHERE ( Id=32 ) [ RunTime:0.0776s ]
+
+[ 2015-10-26T12:58:08+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/addNote
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004326s ]
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0079s ]
+SQL: INSERT INTO `note` (`number`,`num`,`text`,`time`) VALUES ('6','1','vvvvvvvvvvvvvvvv','10-26') [ RunTime:0.0904s ]
+
+[ 2015-10-26T14:01:34+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/upadatePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005024s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0136s ]
+SQL: UPDATE `person` SET `name`='海天',`pinyin`='',`sex`='男',`age`='0',`telephone`='',`qq`='0',`email`='',`address`='' WHERE ( number=48 ) [ RunTime:0.0534s ]
+
+[ 2015-10-26T14:01:47+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/upadatePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004221s ]
+SQL: SHOW COLUMNS FROM `person` [ RunTime:0.0116s ]
+SQL: UPDATE `person` SET `name`='海天',`pinyin`='',`sex`='男',`age`='21',`telephone`='',`qq`='121312312',`email`='',`address`='' WHERE ( number=48 ) [ RunTime:0.0824s ]
+
+[ 2015-10-26T17:33:15+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/updateUser
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003697s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0098s ]
+SQL: UPDATE `user1` SET `userName`='sss' WHERE ( id=49 ) [ RunTime:0.0470s ]
+
+[ 2015-10-26T17:33:40+08:00 ] ::1 /thinkManage/personManage/index.php/Admin/Index/deletePerson
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003937s ]
+SQL: SHOW COLUMNS FROM `user1` [ RunTime:0.0106s ]
+SQL: UPDATE `user1` SET `paswd`='1463e728186c6e2ea308ed31c9037d36',`status`='0' WHERE ( id=49 ) [ RunTime:0.0696s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0103s ]
+SQL: DELETE FROM `books` WHERE ( person_num=49 ) [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `journal` [ RunTime:0.0081s ]
+SQL: DELETE FROM `journal` WHERE ( number=49 ) [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `note` [ RunTime:0.0118s ]
+SQL: DELETE FROM `note` WHERE ( number=49 ) [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `photo` [ RunTime:0.0102s ]
+SQL: DELETE FROM `photo` WHERE ( number=49 ) [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `person_info` [ RunTime:0.0112s ]
+SQL: DELETE FROM `person_info` WHERE ( number=49 ) [ RunTime:0.0781s ]
+
